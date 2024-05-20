@@ -1,0 +1,576 @@
+{
+  "titles": {
+    "efficiency": "<:ehp:866764309131558928> **Efficiency** <:ehp:866764309131558928>",
+    "skilling": "<:total:1214432773541203968> **Skilling** <:total:1214432773541203968>",
+    "activities": "<:master_clue:866763869867212822> **Activities** <:master_clue:866763869867212822>",
+    "bossing": ":crossed_swords: **Bossing** :crossed_swords:",
+    "dashSpace": " - ",
+    "ironman": "<:Ironman:1215134698670661652>",
+    "hardcore": "<:Hardcore:1215134697584066620>",
+    "ultimate": "<:Ultimate:1215134700067102720>"
+  },
+  "exp": {
+    "overall": {
+      "metric": "overall",
+      "icon": "<:total:1214432773541203968>",
+      "display": "Total Experience"
+    }
+  },
+  "skills": {
+    "attack": {
+      "metric": "attack",
+      "icon": "<:Attack:827239009280983154>",
+      "display": "Attack"
+    },
+    "defence": {
+      "metric": "defence",
+      "icon": "<:Defence_icon:827239009355956226>",
+      "display": "Defence"
+    },
+    "strength": {
+      "metric": "strength",
+      "icon": "<:Strength:827239009440628737>",
+      "display": "Strength"
+    },
+    "hitpoints": {
+      "metric": "hitpoints",
+      "icon": "<:Hitpoints:827239009683243088>",
+      "display": "Hitpoints"
+    },
+    "ranged": {
+      "metric": "ranged",
+      "icon": "<:Ranged_icon:827239009569865818>",
+      "display": "Ranged"
+    },
+    "prayer": {
+      "metric": "prayer",
+      "icon": "<:Prayer_icon:827239009449148418>",
+      "display": "Prayer"
+    },
+    "magic": {
+      "metric": "magic",
+      "icon": "<:Magic:827239009683111946>",
+      "display": "Magic"
+    },
+    "cooking": {
+      "metric": "cooking",
+      "icon": "<:Cooking:827239009629241384>",
+      "display": "Cooking"
+    },
+    "woodcutting": {
+      "metric": "woodcutting",
+      "icon": "<:Woodcutting:827239009700675654>",
+      "display": "Woodcutting"
+    },
+    "fletching": {
+      "metric": "fletching",
+      "icon": "<:Fletching:827239009721122926>",
+      "display": "Fletching"
+    },
+    "fishing": {
+      "metric": "fishing",
+      "icon": "<:Fishing:827239009461207091>",
+      "display": "Fishing"
+    },
+    "firemaking": {
+      "metric": "firemaking",
+      "icon": "<:Firemaking_icon:827239009620983880>",
+      "display": "Firemaking"
+    },
+    "crafting": {
+      "metric": "crafting",
+      "icon": "<:Crafting:827239009872773140>",
+      "display": "Crafting"
+    },
+    "smithing": {
+      "metric": "smithing",
+      "icon": "<:Smithing_icon:827239009763197028>",
+      "display": "Smithing"
+    },
+    "mining": {
+      "metric": "mining",
+      "icon": "<:Mining_icon:827239009670791278>",
+      "display": "Mining"
+    },
+    "herblore": {
+      "metric": "herblore",
+      "icon": "<:Herblore:827239009641037864>",
+      "display": "Herblore"
+    },
+    "agility": {
+      "metric": "agility",
+      "icon": "<:Agility_icon:827239009683636244>",
+      "display": "Agility"
+    },
+    "thieving": {
+      "metric": "thieving",
+      "icon": "<:Thieving:827239009431977986>",
+      "display": "Thieving"
+    },
+    "slayer": {
+      "metric": "slayer",
+      "icon": "<:slayer:650527853984743453>",
+      "display": "Slayer"
+    },
+    "farming": {
+      "metric": "farming",
+      "icon": "<:Farming_icon:827239009608007740>",
+      "display": "Farming"
+    },
+    "runecrafting": {
+      "metric": "runecrafting",
+      "icon": "<:Runecraft:827239009616134154>",
+      "display": "Runecrafting"
+    },
+    "hunter": {
+      "metric": "hunter",
+      "icon": "<:Hunter:827239009586774076>",
+      "display": "Hunter"
+    },
+    "construction": {
+      "metric": "construction",
+      "icon": "<:Construction_icon:827239009742487572>",
+      "display": "Construction"
+    }
+  },
+  "score": {
+    "clue_scrolls_all": {
+      "metric": "clue_scrolls_all",
+      "icon": "<:all_clues:866763768523128872>",
+      "display": "All Clues"
+    },
+    "clue_scrolls_beginner": {
+      "metric": "clue_scrolls_beginner",
+      "icon": "<:beginner_clue:866763779676962856>",
+      "display": "Beginner Clues"
+    },
+    "clue_scrolls_easy": {
+      "metric": "clue_scrolls_easy",
+      "icon": "<:easy_clue:866763798685024256>",
+      "display": "Easy Clues"
+    },
+    "clue_scrolls_medium": {
+      "metric": "clue_scrolls_medium",
+      "icon": "<:medium_clue:866763827969785860>",
+      "display": "Medium Clues"
+    },
+    "clue_scrolls_hard": {
+      "metric": "clue_scrolls_hard",
+      "icon": "<:hard_clue:866763842142339095>",
+      "display": "Hard Clues"
+    },
+    "clue_scrolls_elite": {
+      "metric": "clue_scrolls_elite",
+      "icon": "<:elite_clue:866763854419066881>",
+      "display": "Elite Clues"
+    },
+    "clue_scrolls_master": {
+      "metric": "clue_scrolls_master",
+      "icon": "<:master_clue:866763869867212822>",
+      "display": "Master Clues"
+    },
+    "last_man_standing": {
+      "metric": "last_man_standing",
+      "icon": "<:LMS:866764495774023680>",
+      "display": "Last Man Standing"
+    },
+    "soul_wars_zeal": {
+      "metric": "soul_wars_zeal",
+      "icon": "<:zeal:866764716347883580>",
+      "display": "Zeal"
+    },
+    "guardians_of_the_rift": {
+      "metric": "guardians_of_the_rift",
+      "icon": "<:abyssal_protector:1214740819232423936>",
+      "display": "Guardians of the Rift"
+    },
+    "pvp_arena": {
+      "metric": "pvp_arena",
+      "icon": "<:pvp_arena:1009237483218804766>",
+      "display": "Pvp Arena"
+    },
+    "colosseum_glory": {
+      "metric": "colosseum_glory",
+      "icon": "<:Smolheredit:1223300448346443877>",
+      "display": "Colosseum Glory"
+    }
+  },
+  "kills": {
+    "abyssal_sire": {
+      "metric": "abyssal_sire",
+      "icon": "<:abyssal_sire:866763602253316106>",
+      "display": "Abyssal Sire"
+    },
+    "alchemical_hydra": {
+      "metric": "alchemical_hydra",
+      "icon": "<:alchemical_hydra:866763624751562802>",
+      "display": "Alchemical Hydra"
+    },
+    "artio": {
+      "metric": "artio",
+      "icon": "<:artio:1107112013060116571>",
+      "display": "Artio"
+    },
+    "barrows_chests": {
+      "metric": "barrows_chests",
+      "icon": "<:barrows:866763641760251924>",
+      "display": "Barrows"
+    },
+    "bryophyta": {
+      "metric": "bryophyta",
+      "icon": "<:Bryophyta:1107112334645805067>",
+      "display": "Bryophyta"
+    },
+    "callisto": {
+      "metric": "callisto",
+      "icon": "<:callisto:866763681491582996>",
+      "display": "Callisto"
+    },
+    "calvarion": {
+      "metric": "calvarion",
+      "icon": "<:Calvarion:1107112605987897404>",
+      "display": "Calvarion"
+    },
+    "cerberus": {
+      "metric": "cerberus",
+      "icon": "<:cerb:866763694015512667>",
+      "display": "Cerberus"
+    },
+    "chambers_of_xeric": {
+      "metric": "chambers_of_xeric",
+      "icon": "<:CoX:866763706397098014>",
+      "display": "Chambers of Xeric"
+    },
+    "chambers_of_xeric_challenge_mode": {
+      "metric": "chambers_of_xeric_challenge_mode",
+      "icon": "<:CoX_CM:866763717885689857>",
+      "display": "Chambers of Xeric Challenge Mode"
+    },
+    "chaos_elemental": {
+      "metric": "chaos_elemental",
+      "icon": "<:chaos_ele:866763740363751454>",
+      "display": "Chaos Elemental"
+    },
+    "chaos_fanatic": {
+      "metric": "chaos_fanatic",
+      "icon": "<:chaos_fanatic:866763752002551848>",
+      "display": "Chaos Fanatic"
+    },
+    "commander_zilyana": {
+      "metric": "commander_zilyana",
+      "icon": "<:Sara:866763892087848990>",
+      "display": "Commander Zilyana"
+    },
+    "corporeal_beast": {
+      "metric": "corporeal_beast",
+      "icon": "<:corporeal_beast:1107117462912237608>",
+      "display": "Corporeal Beast"
+    },
+    "crazy_archaeologist": {
+      "metric": "crazy_archaeologist",
+      "icon": "<:crazy_archaeologist:866763917136101377>",
+      "display": "Crazy Archaeologist"
+    },
+    "dagannoth_prime": {
+      "metric": "dagannoth_prime",
+      "icon": "<:prime:866763929338511360>",
+      "display": "Dagannoth Prime"
+    },
+    "dagannoth_rex": {
+      "metric": "dagannoth_rex",
+      "icon": "<:rex:866763949223444500>",
+      "display": "Dagannoth Rex"
+    },
+    "dagannoth_supreme": {
+      "metric": "dagannoth_supreme",
+      "icon": "<:supreme:866763968684883989>",
+      "display": "Dagannoth Supreme"
+    },
+    "deranged_archaeologist": {
+      "metric": "deranged_archaeologist",
+      "icon": "<:deranged_archaeologist:866764280413028377>",
+      "display": "Deranged Archaeologist"
+    },
+    "duke_sucellus": {
+      "metric": "duke_sucellus",
+      "icon": "<:Duke:1141039509492994129>",
+      "display": "Duke Sucellus"
+    },
+    "general_graardor": {
+      "metric": "general_graardor",
+      "icon": "<:bandos:866764320616218684>",
+      "display": "General Graardor"
+    },
+    "giant_mole": {
+      "metric": "giant_mole",
+      "icon": "<:mole:733540186448986202>",
+      "display": "Giant Mole"
+    },
+    "grotesque_guardians": {
+      "metric": "grotesque_guardians",
+      "icon": "<:guardians:866764344871092254>",
+      "display": "Grotesque Guardians"
+    },
+    "hespori": {
+      "metric": "hespori",
+      "icon": "<:hespori:866764356552491058>",
+      "display": "Hespori"
+    },
+    "kalphite_queen": {
+      "metric": "kalphite_queen",
+      "icon": "<:KQ:866764383026937876>",
+      "display": "Kalphite Queen"
+    },
+    "king_black_dragon": {
+      "metric": "king_black_dragon",
+      "icon": "<:KBD:866764404136738836>",
+      "display": "King Black Dragon"
+    },
+    "kraken": {
+      "metric": "kraken",
+      "icon": "<:kraken:866764439045799986>",
+      "display": "Kraken"
+    },
+    "kreearra": {
+      "metric": "kreearra",
+      "icon": "<:kreearra:866764455315767296>",
+      "display": "Kreearra"
+    },
+    "kril_tsutsaroth": {
+      "metric": "kril_tsutsaroth",
+      "icon": "<:zammy:866764472869322772>",
+      "display": "K'ril Tsutsaroth"
+    },
+    "lunar_chests": {
+      "metric": "lunar_chests",
+      "icon": "<:Lunar_Chest:1223304221613494494>",
+      "display": "Lunar Chests"
+    },
+    "mimic": {
+      "metric": "mimic",
+      "icon": "<:mimic:866764515168878627>",
+      "display": "Mimic"
+    },
+    "nex": {
+      "metric": "nex",
+      "icon": "<:Nex:932108512316751903>",
+      "display": "Nex"
+    },
+    "nightmare": {
+      "metric": "nightmare",
+      "icon": "<:nightmare:866764540389359657>",
+      "display": "Nightmare"
+    },
+    "phosanis_nightmare": {
+      "metric": "phosanis_nightmare",
+      "icon": "<:phosanis_NM:866764612022829116>",
+      "display": "Phosani's Nightmare"
+    },
+    "obor": {
+      "metric": "obor",
+      "icon": "<:Obor:1107118267774009364>",
+      "display": "Obor"
+    },
+    "phantom_muspah": {
+      "metric": "phantom_muspah",
+      "icon": "<:Muspah:1070373724202733698>",
+      "display": "Phantom Muspah"
+    },
+    "sarachnis": {
+      "metric": "sarachnis",
+      "icon": "<:sarachnis:866764650851074049>",
+      "display": "Sarachnis"
+    },
+    "scorpia": {
+      "metric": "scorpia",
+      "icon": "<:scorpia:866764679844724777>",
+      "display": "Scorpia"
+    },
+    "scurrius": {
+      "metric": "scurrius",
+      "icon": "<:Scurry:1200238875155636234>",
+      "display": "Scurrius"
+    },
+    "skotizo": {
+      "metric": "skotizo",
+      "icon": "<:skotizo:866764695351984158>",
+      "display": "Skotizo"
+    },
+    "sol_heredit": {
+      "metric": "sol_heredit",
+      "icon": "<:Smolheredit:1223300448346443877>",
+      "display": "Fortis Colosseum"
+    },
+    "spindel": {
+      "metric": "spindel",
+      "icon": "<:Spindel:1107112822099415170>",
+      "display": "Spindel"
+    },
+    "tempoross": {
+      "metric": "tempoross",
+      "icon": "<:tempoross:866764731335180299>",
+      "display": "Tempoross"
+    },
+    "the_gauntlet": {
+      "metric": "the_gauntlet",
+      "icon": "<:gauntlet:866764758552150016>",
+      "display": "The Gauntlet"
+    },
+    "the_corrupted_gauntlet": {
+      "metric": "the_corrupted_gauntlet",
+      "icon": "<:corrupted_gauntlet:866764744894971944>",
+      "display": "The Corrupted Gauntlet"
+    },
+    "the_leviathan": {
+      "metric": "the_leviathan",
+      "icon": "<:Leviathan:1141039535917125722>",
+      "display": "The Leviathan"
+    },
+    "the_whisperer": {
+      "metric": "the_whisperer",
+      "icon": "<:Whisperer:1141039606956032094>",
+      "display": "The Whisperer"
+    },
+    "theatre_of_blood": {
+      "metric": "theatre_of_blood",
+      "icon": "<:ToB:866764781745864704>",
+      "display": "Theatre of Blood"
+    },
+    "theatre_of_blood_hard_mode": {
+      "metric": "theatre_of_blood_hard_mode",
+      "icon": "<:ToB_HM:866764811235885079>",
+      "display": "Theatre of Blood HM"
+    },
+    "thermonuclear_smoke_devil": {
+      "metric": "thermonuclear_smoke_devil",
+      "icon": "<:thermy:866782001998200852>",
+      "display": "Thermonuclear Smoke Devil"
+    },
+    "tombs_of_amascut": {
+      "metric": "tombs_of_amascut",
+      "icon": "<:Tombs_of_Amascut_Normal_Mode_ic:1037201320521768980>",
+      "display": "Tombs of Amascut"
+    },
+    "tombs_of_amascut_expert": {
+      "metric": "tombs_of_amascut_expert",
+      "icon": "<:tombs_of_amascut_expert:1070375251847950448>",
+      "display": "Tombs of Amascut Expert"
+    },
+    "tzkal_zuk": {
+      "metric": "tzkal_zuk",
+      "icon": "<:zuk:866782042456588288>",
+      "display": "Zuk"
+    },
+    "tztok_jad": {
+      "metric": "tztok_jad",
+      "icon": "<:jad:866782063793143848>",
+      "display": "Jad"
+    },
+    "vardorvis": {
+      "metric": "vardorvis",
+      "icon": "<:Vardorvis:1141039578493497385>",
+      "display": "Vardorvis"
+    },
+    "venenatis": {
+      "metric": "venenatis",
+      "icon": "<:venenatis_spiderling:1070376695007281284>",
+      "display": "Venenatis"
+    },
+    "vetion": {
+      "metric": "vetion",
+      "icon": "<:vetion:866782085329846272>",
+      "display": "Vetion"
+    },
+    "vorkath": {
+      "metric": "vorkath",
+      "icon": "<:vork:866782101034631179>",
+      "display": "Vorkath"
+    },
+    "wintertodt": {
+      "metric": "wintertodt",
+      "icon": "<:wintertodt:866782114720645181>",
+      "display": "Wintertodt"
+    },
+    "zalcano": {
+      "metric": "zalcano",
+      "icon": "<:zalcano:866782127533719602>",
+      "display": "Zalcano"
+    },
+    "zulrah": {
+      "metric": "zulrah",
+      "icon": "<:zulrah:866782139591819266>",
+      "display": "Zulrah"
+    }
+  },
+  "ehp": {
+    "metric": "ehp",
+    "icon": "<:ehp:866764309131558928>",
+    "display": "Efficient Hours Played"
+  },
+  "ehb": {
+    "metric": "ehb",
+    "icon": "<:ehb:866764296184922132>",
+    "display": "Efficient Hours Bossed"
+  },
+  "pet_icons": {
+    "11995": "<:chaos_ele:866763740363751454>",
+    "12643": "<:supreme:866763968684883989>",
+    "12644": "<:prime:866763929338511360>",
+    "12645": "<:rex:866763949223444500>",
+    "12703": "<:Petpenancequeen:1218339170494320751>",
+    "12649": "<:kreearra:866764455315767296>",
+    "12650": "<:bandos:866764320616218684>",
+    "12651": "<:Sara:866763892087848990>",
+    "12652": "<:zammy:866764472869322772>",
+    "12646": "<:mole:733540186448986202>",
+    "12653": "<:Princeblackdragon:1215383753141264474>",
+    "12647": "<:Kalphiteprincess:1215383878827769866>",
+    "12648": "<:thermy:866782001998200852>",
+    "12655": "<:kraken:866764439045799986>",
+    "12816": "<:Petdarkcore:1215384034851426304>",
+    "12921": "<:Petsnakeling:1215147932710338590>",
+    "13071": "<:Chompychick:1215147927249485925>",
+    "13177": "<:venenatis_spiderling:1070376695007281284>",
+    "13178": "<:callisto_cub:1070377146939359363>",
+    "13179": "<:vetion_jr:1070377416553414716>",
+    "13181": "<:scorpia:866764679844724777>",
+    "13225": "<:jad:866782063793143848>",
+    "13247": "<:cerb:866763694015512667>",
+    "13262": "<:Abyssalorphan:1215240509052944415>",
+    "13320": "<:Heron:1215147931712102412>",
+    "13321": "<:Rockgolem:1215147934774206484>",
+    "13322": "<:Beaver:1215147925705982003>",
+    "13324": "<:Chinchompa:1215147924225400892>",
+    "19730": "<:Bloodhound:1215384603259437066>",
+    "20659": "<:Giantsquirrel:1215147929065619529>",
+    "20661": "<:Tangleroot:1215147938368716841>",
+    "20665": "<:Riftguardian:1215385270640181289>",
+    "20663": "<:Rocky:1215148024591028244>",
+    "20693": "<:Phoenix:1215147933763379231>",
+    "20851": "<:CoX:866763706397098014>",
+    "21273": "<:skotizo:866764695351984158>",
+    "21291": "<:Jalnibrek:1218338448465854524>",
+    "21509": "<:Herbi:1215147930437161010>",
+    "21748": "<:guardians:866764344871092254>",
+    "21992": "<:vork:866782101034631179>",
+    "22473": "<:ToB:866764781745864704>",
+    "22746": "<:Ikklehydra:1215241396600963132>",
+    "23495": "<:sarachnis:866764650851074049>",
+    "23757": "<:gauntlet:866764758552150016>",
+    "23760": "<:zalcano:866782127533719602>",
+    "24491": "<:nightmare:866764540389359657>",
+    "25348": "<:Lilcreator:1215385077177917574>",
+    "25602": "<:Tinytempor:1218339927419392200>",
+    "26348": "<:Nexling:1218339925326303276>",
+    "26901": "<:abyssal_protector:1214740819232423936>",
+    "27352": "<:toapet:1215149897724989480>",
+    "27590": "<:Muphin:1215150100414996530>",
+    "28246": "<:Whisperer:1141039606956032094>",
+    "28248": "<:Vardorvis:1141039578493497385>",
+    "28252": "<:Leviathan:1141039535917125722>",
+    "28250": "<:Duke:1141039509492994129>",
+    "28801": "<:Scurry:1200238875155636234>",
+    "28962": "<:Quetzin:1223453758671814716>",
+    "28960": "<:Smolheredit:1223300448346443877>"
+  }
+}
