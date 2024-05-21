@@ -1,6 +1,7 @@
 const { EmbedBuilder, WebhookClient } = require('discord.js');
 const config = require('./config.json');
 const embedsHS = require('./embeds.json');
+const metricsList = require('./metrics.json');
 const getWebhookIdAndTokenFromLink = (link) => {
     const regex = /https:\/\/discord\.com\/api\/webhooks\/(\d+)\/([\w-]+)/;
     const matches = link.match(regex);
@@ -15,49 +16,34 @@ const webhookDetails = getWebhookIdAndTokenFromLink(config.webhookUrl);
 const channelId = getChannelIdFromLink(config.previousMessageUrl);
 const webhookClient = new WebhookClient({ id: webhookDetails.id, token: webhookDetails.token });
 
+function replaceTitle(cat, metric){
+  return metricsList.metric.display;
+}
 
-const embed2 = new EmbedBuilder()
-  .setTitle('<:slime:1049235206105735168> Updated <:slime:1049235206105735168>')
-  .setDescription('<:slime:1049235206105735168> Updated content here <:slime:1049235206105735168>')
-  .setColor(0x2F3136); // You can set the color as you like
+
+  const embeds = Object.keys(embedsHS.embeds).flatMap(metric => {
+    let metricEmbeds = []; // Create an array to hold the embeds for this metric
+    const playerEntries = Object.entries(embedsHS.embeds[metric]); // Get the entries for the players
   
-/*const embeds = embedsHS.embeds.map(embedData => {
-  const embed = new EmbedBuilder()
-    .setTitle(embedData.metric)
-    .setDescription('test')
-    // Map each fieldData into two separate fields
-    .addFields(embedData.fields.flatMap(fieldData => [
-      { name: '\u200B', value: fieldData.nameValue, inline: true },
-      { name: '\u200B', value: fieldData.xpValue, inline: true },
-      { name: '\u200B', value: '\u200B', inline: true }
-    ]));
-    return embed;
-  })*/
-//`**${embedData.metric}**`
-  const embeds = embedsHS.embeds.map(embedData => {
-    const embed = new EmbedBuilder()
-      .addFields({
-        name: `**${embedData.metric}**`,
-        value: `${"".padEnd(20, `<>`)}`, 
-        inline: false
-      },
-      {
-        name: embedData.fields.map(fieldData => `${fieldData.nameValue}`).join('\n'),
-        value: "\u200B", 
-        inline: true
-      },
-      {
-        name: embedData.fields.map(fieldData => `${fieldData.xpValue}`).join('\n'), 
-        value: "\u200B", 
-        inline: true
-      },
-      {
-        name: "\u200B", 
-        value: "\u200B", 
-        inline: true
-      });
-    return embed;
+    for (let i = 0; i < playerEntries.length; i += 5) {
+      const playerChunk = playerEntries.slice(i, i + 5); // Slice the array to get the next 5 players
+      // Combine nameValues and xpValues into single strings separated by newlines
+      const nameValues = playerChunk.map(([key, players]) => players.nameValue).join('\n');
+      const xpValues = playerChunk.map(([key, players]) => players.xpValue).join('\n');
+  
+      const embed = new EmbedBuilder()
+        .addFields(
+         
+          { name: `**${metric}**`, value: `${"".padEnd(20, `-`)}`, inline: false },
+          { name: nameValues, value: '\u200B', inline: true },
+          { name: xpValues, value: '\u200B', inline: true },
+          { name: '\u200B', value: '\u200B', inline: true }
+        );
+      metricEmbeds.push(embed); // Add the embed to the array of metric embeds
+    }
+    return metricEmbeds;
   });
+
 
 
 

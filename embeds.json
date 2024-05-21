@@ -1,0 +1,48 @@
+{
+  "embeds": {
+    "clue_scrolls_all": {
+      "player1": {
+        "nameValue": "c4ron",
+        "xpValue": 10606
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 8898
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 4726
+      },
+      "player4": {
+        "nameValue": "SquanUK",
+        "xpValue": 3201
+      },
+      "player5": {
+        "nameValue": "Farigno",
+        "xpValue": 3146
+      }
+    },
+    "clue_scrolls_beginner": {
+      "player1": {
+        "nameValue": "gildedpanda",
+        "xpValue": 1000
+      },
+      "player2": {
+        "nameValue": "its the game",
+        "xpValue": 748
+      },
+      "player3": {
+        "nameValue": "xHannna",
+        "xpValue": 700
+      },
+      "player4": {
+        "nameValue": "c4ron",
+        "xpValue": 698
+      },
+      "player5": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 600
+      }
+    }
+  }
+}

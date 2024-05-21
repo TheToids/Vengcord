@@ -133,7 +133,7 @@
       "display": "Construction"
     }
   },
-  "score": {
+  "activities": {
     "clue_scrolls_all": {
       "metric": "clue_scrolls_all",
       "icon": "<:all_clues:866763768523128872>",
