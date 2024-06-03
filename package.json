@@ -11,6 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "@wise-old-man/utils": "^3.3.2",
-    "discord.js": "^14.14.1"
+    "async": "^3.2.5",
+    "axios": "^1.7.2",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "merge-images": "^2.0.0",
+    "sharp": "^0.33.4"
   }
 }

@@ -1,267 +1,3666 @@
 {
   "embeds": {
-    "clue_scrolls_all": {
+    "overall": {
       "player1": {
-        "nameValue": "c4ron",
-        "xpValue": 10606
+        "nameValue": "Z E E E F",
+        "xpValue": 2323559237,
+        "posValue": 266,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 1392356779,
+        "posValue": 949,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1189638376,
+        "posValue": 1551,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 971904581,
+        "posValue": 2892,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "frodobaggens",
+        "xpValue": 856151746,
+        "posValue": 4279,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "attack": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 360,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 68153430,
+        "posValue": 2754,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "frodobaggens",
+        "xpValue": 61252229,
+        "posValue": 3601,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 56317779,
+        "posValue": 4552,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "Fe Tate",
+        "xpValue": 45428725,
+        "posValue": 1336,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      }
+    },
+    "defence": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 307,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "frodobaggens",
+        "xpValue": 57134289,
+        "posValue": 2147,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 54425605,
+        "posValue": 2417,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 42802977,
+        "posValue": 4365,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 36085401,
+        "posValue": 6986,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "strength": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 728,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player2": {
         "nameValue": "KaiserBruno",
-        "xpValue": 8899
+        "xpValue": 139217132,
+        "posValue": 3148,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player3": {
-        "nameValue": "osleeb",
-        "xpValue": 4726
+        "nameValue": "WilsC",
+        "xpValue": 115032468,
+        "posValue": 5082,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player4": {
-        "nameValue": "SquanUK",
-        "xpValue": 3201
+        "nameValue": "a zuzakini",
+        "xpValue": 110883981,
+        "posValue": 5586,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "Gunzyx",
+        "xpValue": 99317656,
+        "posValue": 7267,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "hitpoints": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 473,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 192184991,
+        "posValue": 1033,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 136720514,
+        "posValue": 3275,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 122673608,
+        "posValue": 4673,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "frodobaggens",
+        "xpValue": 120488639,
+        "posValue": 4966,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "ranged": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 200000000,
+        "posValue": 1074,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 842,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 147199092,
+        "posValue": 3356,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "frodobaggens",
+        "xpValue": 137146308,
+        "posValue": 4188,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "King Slime",
+        "xpValue": 136722617,
+        "posValue": 4222,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      }
+    },
+    "prayer": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 51826778,
+        "posValue": 429,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 36191799,
+        "posValue": 599,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 15866229,
+        "posValue": 3685,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 15514731,
+        "posValue": 4228,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "God Sexy",
+        "xpValue": 15145396,
+        "posValue": 5043,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "magic": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 314,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 96247935,
+        "posValue": 1367,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 73089317,
+        "posValue": 2714,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 65624983,
+        "posValue": 3653,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "K1ERZ",
+        "xpValue": 56081857,
+        "posValue": 5727,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "cooking": {
+      "player1": {
+        "nameValue": "its the game",
+        "xpValue": 200000000,
+        "posValue": 2957,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player2": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 1506,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Duvelicious",
+        "xpValue": 200000000,
+        "posValue": 2761,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "agv",
+        "xpValue": 200000000,
+        "posValue": 1248,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player5": {
+        "nameValue": "Kaduno",
+        "xpValue": 147424672,
+        "posValue": 3740,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "woodcutting": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 335,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "rflars",
+        "xpValue": 70000521,
+        "posValue": 2277,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 66777730,
+        "posValue": 2451,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "xHannna",
+        "xpValue": 53071010,
+        "posValue": 3566,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player5": {
         "nameValue": "Farigno",
-        "xpValue": 3146
+        "xpValue": 52615550,
+        "posValue": 3601,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      }
+    },
+    "fletching": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 23192936,
+        "posValue": 6737,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Z E E E F",
+        "xpValue": 20055041,
+        "posValue": 9055,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Gunzyx",
+        "xpValue": 17887984,
+        "posValue": 11922,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 17399670,
+        "posValue": 12836,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player5": {
+        "nameValue": "Kall",
+        "xpValue": 17235090,
+        "posValue": 13182,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "fishing": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 31054054,
+        "posValue": 5154,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 29586436,
+        "posValue": 5732,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 26260291,
+        "posValue": 7459,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "No luck Dave",
+        "xpValue": 25425341,
+        "posValue": 8027,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Nez38",
+        "xpValue": 23183408,
+        "posValue": 10022,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      }
+    },
+    "firemaking": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 200000000,
+        "posValue": 484,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 75453740,
+        "posValue": 1959,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 63574256,
+        "posValue": 2381,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 43564492,
+        "posValue": 4025,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "Ayo Fookers",
+        "xpValue": 28175354,
+        "posValue": 8315,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "crafting": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 55058634,
+        "posValue": 952,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "LowLifeDrip",
+        "xpValue": 27113936,
+        "posValue": 2186,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 22984343,
+        "posValue": 2998,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "Duvelicious",
+        "xpValue": 16989909,
+        "posValue": 8142,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Old Delf",
+        "xpValue": 16959197,
+        "posValue": 8213,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "smithing": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 44516105,
+        "posValue": 2536,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 23102878,
+        "posValue": 6028,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "TheKid 1",
+        "xpValue": 22696889,
+        "posValue": 6196,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "Duvelicious",
+        "xpValue": 20106201,
+        "posValue": 7800,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Hardass",
+        "xpValue": 16798542,
+        "posValue": 11264,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "mining": {
+      "player1": {
+        "nameValue": "frodobaggens",
+        "xpValue": 71125269,
+        "posValue": 773,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "King Slime",
+        "xpValue": 35681327,
+        "posValue": 3192,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player3": {
+        "nameValue": "tiny dik nub",
+        "xpValue": 32182999,
+        "posValue": 3995,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player4": {
+        "nameValue": "Nez38",
+        "xpValue": 28617956,
+        "posValue": 5223,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player5": {
+        "nameValue": "xp waster 47",
+        "xpValue": 24711105,
+        "posValue": 7253,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "herblore": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 24444326,
+        "posValue": 2217,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Ayo Fookers",
+        "xpValue": 20323535,
+        "posValue": 3742,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Wet Tick",
+        "xpValue": 19671600,
+        "posValue": 2432,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "shirt pocket",
+        "xpValue": 17738107,
+        "posValue": 3354,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "BobbyyHill",
+        "xpValue": 17223362,
+        "posValue": 6103,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "agility": {
+      "player1": {
+        "nameValue": "lttstorecom",
+        "xpValue": 36130089,
+        "posValue": 928,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 34399980,
+        "posValue": 1004,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 19236720,
+        "posValue": 4200,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "its the game",
+        "xpValue": 16923282,
+        "posValue": 6211,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "Go Raps Go",
+        "xpValue": 16875499,
+        "posValue": 6263,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "thieving": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 110996812,
+        "posValue": 1820,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "King Slime",
+        "xpValue": 81723158,
+        "posValue": 2553,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player3": {
+        "nameValue": "Im Kelm",
+        "xpValue": 57201508,
+        "posValue": 425,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "Dogfruit1555",
+        "xpValue": 31806935,
+        "posValue": 8093,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Jasjag",
+        "xpValue": 30075119,
+        "posValue": 1525,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      }
+    },
+    "slayer": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 195548020,
+        "posValue": 149,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 46081350,
+        "posValue": 2346,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "frodobaggens",
+        "xpValue": 45710759,
+        "posValue": 2393,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "agv",
+        "xpValue": 41618018,
+        "posValue": 3189,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player5": {
+        "nameValue": "osleeb",
+        "xpValue": 40672803,
+        "posValue": 3424,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "farming": {
+      "player1": {
+        "nameValue": "Toids",
+        "xpValue": 192418658,
+        "posValue": 916,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 112000415,
+        "posValue": 1708,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "aaaron",
+        "xpValue": 83344161,
+        "posValue": 2688,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "nicnad",
+        "xpValue": 70128107,
+        "posValue": 3605,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player5": {
+        "nameValue": "shirt pocket",
+        "xpValue": 69966105,
+        "posValue": 626,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      }
+    },
+    "runecrafting": {
+      "player1": {
+        "nameValue": "lttstorecom",
+        "xpValue": 26955326,
+        "posValue": 3542,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 26619921,
+        "posValue": 3633,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "Duvelicious",
+        "xpValue": 24868449,
+        "posValue": 4247,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "Scuffed Valk",
+        "xpValue": 24449125,
+        "posValue": 4419,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Old Delf",
+        "xpValue": 24347143,
+        "posValue": 4457,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "hunter": {
+      "player1": {
+        "nameValue": "King Slime",
+        "xpValue": 80242750,
+        "posValue": 1068,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player2": {
+        "nameValue": "frodobaggens",
+        "xpValue": 66867180,
+        "posValue": 1509,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 63344222,
+        "posValue": 1682,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 50675784,
+        "posValue": 2529,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player5": {
+        "nameValue": "Zand",
+        "xpValue": 35462250,
+        "posValue": 4900,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "construction": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 18004532,
+        "posValue": 1246,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "tiny dik nub",
+        "xpValue": 17198271,
+        "posValue": 1769,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 14776589,
+        "posValue": 3308,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "Kaduno",
+        "xpValue": 14408484,
+        "posValue": 4211,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "its the game",
+        "xpValue": 14265246,
+        "posValue": 4598,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "clue_scrolls_all": {
+      "player1": {
+        "nameValue": "c4ron",
+        "xpValue": 10606,
+        "posValue": 290,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 8920,
+        "posValue": 441,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 4744,
+        "posValue": 1572,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "SquanUK",
+        "xpValue": 3213,
+        "posValue": 3502,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "Farigno",
+        "xpValue": 3161,
+        "posValue": 3613,
+        "helmValue": "regular",
+        "roleValue": "recruit"
       }
     },
     "clue_scrolls_beginner": {
       "player1": {
         "nameValue": "gildedpanda",
-        "xpValue": 1000
+        "xpValue": 1000,
+        "posValue": 621,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player2": {
         "nameValue": "its the game",
-        "xpValue": 748
+        "xpValue": 748,
+        "posValue": 1563,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       },
       "player3": {
         "nameValue": "xHannna",
-        "xpValue": 700
+        "xpValue": 700,
+        "posValue": 1929,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player4": {
         "nameValue": "c4ron",
-        "xpValue": 698
+        "xpValue": 698,
+        "posValue": 1976,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player5": {
         "nameValue": "KaiserBruno",
-        "xpValue": 600
+        "xpValue": 600,
+        "posValue": 4462,
+        "helmValue": "regular",
+        "roleValue": "owner"
       }
     },
     "clue_scrolls_easy": {
       "player1": {
         "nameValue": "c4ron",
-        "xpValue": 3406
+        "xpValue": 3406,
+        "posValue": 356,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player2": {
         "nameValue": "KaiserBruno",
-        "xpValue": 2400
+        "xpValue": 2400,
+        "posValue": 596,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player3": {
         "nameValue": "SquanUK",
-        "xpValue": 1000
+        "xpValue": 1000,
+        "posValue": 2816,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       },
       "player4": {
         "nameValue": "tiny dik nub",
-        "xpValue": 754
+        "xpValue": 754,
+        "posValue": 4348,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
       },
       "player5": {
         "nameValue": "King Slime",
-        "xpValue": 623
+        "xpValue": 623,
+        "posValue": 5852,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
       }
     },
     "clue_scrolls_medium": {
       "player1": {
         "nameValue": "c4ron",
-        "xpValue": 5164
+        "xpValue": 5164,
+        "posValue": 294,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player2": {
         "nameValue": "KaiserBruno",
-        "xpValue": 3400
+        "xpValue": 3400,
+        "posValue": 548,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player3": {
         "nameValue": "osleeb",
-        "xpValue": 1904
+        "xpValue": 1904,
+        "posValue": 1669,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player4": {
         "nameValue": "Chrlie",
-        "xpValue": 1758
+        "xpValue": 1758,
+        "posValue": 1942,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
       },
       "player5": {
-        "nameValue": "I am Donuts",
-        "xpValue": 1220
+        "nameValue": "agv",
+        "xpValue": 1451,
+        "posValue": 2758,
+        "helmValue": "regular",
+        "roleValue": "recruit"
       }
     },
     "clue_scrolls_hard": {
       "player1": {
         "nameValue": "osleeb",
-        "xpValue": 1329
+        "xpValue": 1339,
+        "posValue": 676,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player2": {
-        "nameValue": "veldsy",
-        "xpValue": 1083
+        "nameValue": "KaiserBruno",
+        "xpValue": 1020,
+        "posValue": 1451,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player3": {
-        "nameValue": "KaiserBruno",
-        "xpValue": 1020
+        "nameValue": "Z E E E F",
+        "xpValue": 1000,
+        "posValue": 1559,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player4": {
-        "nameValue": "Z E E E F",
-        "xpValue": 1000
+        "nameValue": "c4ron",
+        "xpValue": 889,
+        "posValue": 2102,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player5": {
-        "nameValue": "c4ron",
-        "xpValue": 889
+        "nameValue": "Farigno",
+        "xpValue": 601,
+        "posValue": 6333,
+        "helmValue": "regular",
+        "roleValue": "recruit"
       }
     },
     "clue_scrolls_elite": {
       "player1": {
         "nameValue": "KaiserBruno",
-        "xpValue": 986
+        "xpValue": 1003,
+        "posValue": 63,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player2": {
         "nameValue": "osleeb",
-        "xpValue": 377
+        "xpValue": 384,
+        "posValue": 1134,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player3": {
         "nameValue": "redant905",
-        "xpValue": 322
+        "xpValue": 326,
+        "posValue": 1757,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player4": {
         "nameValue": "RN BSN",
-        "xpValue": 251
+        "xpValue": 251,
+        "posValue": 1397,
+        "helmValue": "ironman",
+        "roleValue": "elite"
       },
       "player5": {
         "nameValue": "SquanUK",
-        "xpValue": 248
+        "xpValue": 248,
+        "posValue": 3716,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       }
     },
     "clue_scrolls_master": {
       "player1": {
         "nameValue": "KaiserBruno",
-        "xpValue": 493
+        "xpValue": 497,
+        "posValue": 1052,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player2": {
         "nameValue": "K1ERZ",
-        "xpValue": 463
+        "xpValue": 466,
+        "posValue": 1256,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       },
       "player3": {
         "nameValue": "King Slime",
-        "xpValue": 452
+        "xpValue": 458,
+        "posValue": 1308,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
       },
       "player4": {
         "nameValue": "Gunzyx",
-        "xpValue": 437
+        "xpValue": 442,
+        "posValue": 1427,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player5": {
         "nameValue": "Z E E E F",
-        "xpValue": 429
+        "xpValue": 429,
+        "posValue": 1535,
+        "helmValue": "regular",
+        "roleValue": "quester"
       }
     },
     "last_man_standing": {
       "player1": {
         "nameValue": "glorybaby",
-        "xpValue": 5938
+        "xpValue": 5938,
+        "posValue": 4762,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player2": {
         "nameValue": "xeera01",
-        "xpValue": 5422
+        "xpValue": 5422,
+        "posValue": 5496,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player3": {
         "nameValue": "Fe Tate",
-        "xpValue": 4303
+        "xpValue": 4303,
+        "posValue": 987,
+        "helmValue": "ironman",
+        "roleValue": "quester"
       },
       "player4": {
         "nameValue": "suersocarl22",
-        "xpValue": 3669
+        "xpValue": 3669,
+        "posValue": 9831,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player5": {
         "nameValue": "KaiserBruno",
-        "xpValue": 2500
+        "xpValue": 2500,
+        "posValue": 16909,
+        "helmValue": "regular",
+        "roleValue": "owner"
       }
     },
     "soul_wars_zeal": {
       "player1": {
         "nameValue": "emmasboy88",
-        "xpValue": 15146
+        "xpValue": 15146,
+        "posValue": 10685,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player2": {
         "nameValue": "Tha Dong",
-        "xpValue": 12449
+        "xpValue": 12449,
+        "posValue": 12235,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player3": {
         "nameValue": "its the game",
-        "xpValue": 11229
+        "xpValue": 11773,
+        "posValue": 12719,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       },
       "player4": {
         "nameValue": "KaiserBruno",
-        "xpValue": 7000
+        "xpValue": 7000,
+        "posValue": 18444,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player5": {
         "nameValue": "OsrsVorky",
-        "xpValue": 6756
+        "xpValue": 6995,
+        "posValue": 18363,
+        "helmValue": "regular",
+        "roleValue": "quester"
       }
     },
     "guardians_of_the_rift": {
       "player1": {
         "nameValue": "lttstorecom",
-        "xpValue": 1577
+        "xpValue": 1577,
+        "posValue": 2797,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player2": {
         "nameValue": "Robin Yin",
-        "xpValue": 1547
+        "xpValue": 1547,
+        "posValue": 2996,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player3": {
         "nameValue": "spryo25",
-        "xpValue": 1444
+        "xpValue": 1444,
+        "posValue": 3664,
+        "helmValue": "regular",
+        "roleValue": "elite"
       },
       "player4": {
         "nameValue": "KaiserBruno",
-        "xpValue": 1100
+        "xpValue": 1100,
+        "posValue": 5876,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player5": {
         "nameValue": "Guri Kelef",
-        "xpValue": 875
+        "xpValue": 875,
+        "posValue": 8510,
+        "helmValue": "regular",
+        "roleValue": "quester"
       }
     },
     "pvp_arena": {
       "player1": {
         "nameValue": "benji staxx",
-        "xpValue": 3184
+        "xpValue": 3184,
+        "posValue": 174,
+        "helmValue": "ironman",
+        "roleValue": "quester"
       },
       "player2": {
         "nameValue": "DuhStupid",
-        "xpValue": 2746
+        "xpValue": 2746,
+        "posValue": 7284,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player3": {
         "nameValue": "Kall",
-        "xpValue": 2644
+        "xpValue": 2644,
+        "posValue": 12382,
+        "helmValue": "regular",
+        "roleValue": "quester"
       },
       "player4": {
         "nameValue": "Kawaiiet",
-        "xpValue": 2630
+        "xpValue": 2630,
+        "posValue": 13313,
+        "helmValue": "regular",
+        "roleValue": "completionist"
       },
       "player5": {
         "nameValue": "ironic tbh",
-        "xpValue": 2622
+        "xpValue": 2622,
+        "posValue": 3258,
+        "helmValue": "ironman",
+        "roleValue": "onyx"
       }
     },
     "colosseum_glory": {
       "player1": {
         "nameValue": "KaiserBruno",
-        "xpValue": 51423
+        "xpValue": 51423,
+        "posValue": 150,
+        "helmValue": "regular",
+        "roleValue": "owner"
       },
       "player2": {
         "nameValue": "a zuzakini",
-        "xpValue": 51311
+        "xpValue": 51311,
+        "posValue": 161,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       },
       "player3": {
+        "nameValue": "Poey",
+        "xpValue": 47951,
+        "posValue": 1112,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player4": {
         "nameValue": "matoohee",
-        "xpValue": 45551
+        "xpValue": 45551,
+        "posValue": 2699,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "nicnad",
+        "xpValue": 44720,
+        "posValue": 3478,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      }
+    },
+    "abyssal_sire": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 8847,
+        "posValue": 25,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "osleeb",
+        "xpValue": 5840,
+        "posValue": 170,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "PickleGate",
+        "xpValue": 3436,
+        "posValue": 925,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "unc1ebob",
+        "xpValue": 3099,
+        "posValue": 1225,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "K1ERZ",
+        "xpValue": 2760,
+        "posValue": 1670,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "alchemical_hydra": {
+      "player1": {
+        "nameValue": "frodobaggens",
+        "xpValue": 9471,
+        "posValue": 336,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "hinyana",
+        "xpValue": 4920,
+        "posValue": 164,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "frunkyched",
+        "xpValue": 4462,
+        "posValue": 3219,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "The Hype God",
+        "xpValue": 3881,
+        "posValue": 4611,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "mango sharks",
+        "xpValue": 3257,
+        "posValue": 7229,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "artio": {
+      "player1": {
+        "nameValue": "Kemagi",
+        "xpValue": 6046,
+        "posValue": 314,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 4693,
+        "posValue": 551,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1400,
+        "posValue": 5040,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "bearataur",
+        "xpValue": 1336,
+        "posValue": 5408,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "lrontitan",
+        "xpValue": 1259,
+        "posValue": 5910,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "barrows_chests": {
+      "player1": {
+        "nameValue": "hinyana",
+        "xpValue": 2791,
+        "posValue": 109,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "me goose ta",
+        "xpValue": 2298,
+        "posValue": 2236,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Chrlie",
+        "xpValue": 1813,
+        "posValue": 4065,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1700,
+        "posValue": 4859,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player5": {
+        "nameValue": "SquanUK",
+        "xpValue": 1650,
+        "posValue": 5290,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "bryophyta": {
+      "player1": {
+        "nameValue": "poompkin",
+        "xpValue": 189,
+        "posValue": 2701,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "No RNG Life",
+        "xpValue": 175,
+        "posValue": 3157,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 130,
+        "posValue": 5364,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "RN BSN",
+        "xpValue": 127,
+        "posValue": 2226,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "agv",
+        "xpValue": 116,
+        "posValue": 6587,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      }
+    },
+    "callisto": {
+      "player1": {
+        "nameValue": "Nez38",
+        "xpValue": 7932,
+        "posValue": 332,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player2": {
+        "nameValue": "mids gang",
+        "xpValue": 6340,
+        "posValue": 533,
+        "helmValue": "regular",
+        "roleValue": "onyx"
+      },
+      "player3": {
+        "nameValue": "Jasjag",
+        "xpValue": 3923,
+        "posValue": 69,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      },
+      "player4": {
+        "nameValue": "1Sh0t",
+        "xpValue": 3395,
+        "posValue": 1869,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "King Slime",
+        "xpValue": 3124,
+        "posValue": 2194,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      }
+    },
+    "calvarion": {
+      "player1": {
+        "nameValue": "Kemagi",
+        "xpValue": 1500,
+        "posValue": 2386,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "Rokkenjima",
+        "xpValue": 1134,
+        "posValue": 1316,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      },
+      "player3": {
+        "nameValue": "iron swirl",
+        "xpValue": 1120,
+        "posValue": 1349,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "atronus1",
+        "xpValue": 923,
+        "posValue": 5806,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "agv",
+        "xpValue": 914,
+        "posValue": 5874,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      }
+    },
+    "cerberus": {
+      "player1": {
+        "nameValue": "King Slime",
+        "xpValue": 5927,
+        "posValue": 1450,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player2": {
+        "nameValue": "frodobaggens",
+        "xpValue": 5895,
+        "posValue": 1469,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 5000,
+        "posValue": 2253,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "mr legi0n",
+        "xpValue": 4371,
+        "posValue": 3175,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Gunzyx",
+        "xpValue": 4366,
+        "posValue": 3188,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "chambers_of_xeric": {
+      "player1": {
+        "nameValue": "ferisbeuller",
+        "xpValue": 2228,
+        "posValue": 176,
+        "helmValue": "ironman",
+        "roleValue": "red_topaz"
+      },
+      "player2": {
+        "nameValue": "Solarrr",
+        "xpValue": 1408,
+        "posValue": 6780,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "toast ted",
+        "xpValue": 1345,
+        "posValue": 7517,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 1336,
+        "posValue": 7653,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "Wet Tick",
+        "xpValue": 1283,
+        "posValue": 1319,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      }
+    },
+    "chambers_of_xeric_challenge_mode": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1665,
+        "posValue": 170,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "K1ERZ",
+        "xpValue": 972,
+        "posValue": 713,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "Chrlie",
+        "xpValue": 637,
+        "posValue": 1846,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
       },
       "player4": {
         "nameValue": "nicnad",
-        "xpValue": 44720
+        "xpValue": 592,
+        "posValue": 2120,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player5": {
+        "nameValue": "Poey",
+        "xpValue": 549,
+        "posValue": 2475,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      }
+    },
+    "chaos_elemental": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1100,
+        "posValue": 465,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "TheRoach",
+        "xpValue": 829,
+        "posValue": 1315,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Chrlie",
+        "xpValue": 758,
+        "posValue": 1755,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player4": {
+        "nameValue": "I am Donuts",
+        "xpValue": 650,
+        "posValue": 2752,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "robert t",
+        "xpValue": 591,
+        "posValue": 3575,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "chaos_fanatic": {
+      "player1": {
+        "nameValue": "partonax",
+        "xpValue": 1406,
+        "posValue": 679,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "Tzok Kut Kop",
+        "xpValue": 982,
+        "posValue": 1883,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 971,
+        "posValue": 1915,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "Fe Tate",
+        "xpValue": 869,
+        "posValue": 295,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Dune Raid",
+        "xpValue": 718,
+        "posValue": 3389,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      }
+    },
+    "commander_zilyana": {
+      "player1": {
+        "nameValue": "toast ted",
+        "xpValue": 9179,
+        "posValue": 97,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 7132,
+        "posValue": 183,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 3700,
+        "posValue": 783,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player4": {
+        "nameValue": "Himz",
+        "xpValue": 1293,
+        "posValue": 1394,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "morepetz",
+        "xpValue": 1206,
+        "posValue": 8546,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "corporeal_beast": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 14272,
+        "posValue": 83,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 3300,
+        "posValue": 1353,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 1486,
+        "posValue": 4140,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 1327,
+        "posValue": 4831,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
       },
       "player5": {
         "nameValue": "Anchondo",
-        "xpValue": 43453
+        "xpValue": 1169,
+        "posValue": 5687,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      }
+    },
+    "crazy_archaeologist": {
+      "player1": {
+        "nameValue": "osleeb",
+        "xpValue": 977,
+        "posValue": 874,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player2": {
+        "nameValue": "Fe Tate",
+        "xpValue": 909,
+        "posValue": 280,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "c4ron",
+        "xpValue": 717,
+        "posValue": 1953,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "Tzok Kut Kop",
+        "xpValue": 557,
+        "posValue": 3548,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "SquanUK",
+        "xpValue": 455,
+        "posValue": 5635,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "dagannoth_prime": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 3015,
+        "posValue": 2372,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 2592,
+        "posValue": 3272,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "Kaduno",
+        "xpValue": 2106,
+        "posValue": 5163,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "BobbyyHill",
+        "xpValue": 2051,
+        "posValue": 5437,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Pac0 De Tac0",
+        "xpValue": 1994,
+        "posValue": 5794,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "dagannoth_rex": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 3047,
+        "posValue": 2930,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 2608,
+        "posValue": 4094,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 2550,
+        "posValue": 4315,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player4": {
+        "nameValue": "Kaduno",
+        "xpValue": 2306,
+        "posValue": 5364,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "xeera01",
+        "xpValue": 2118,
+        "posValue": 6440,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "dagannoth_supreme": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 4214,
+        "posValue": 1120,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 2625,
+        "posValue": 3267,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "Pac0 De Tac0",
+        "xpValue": 2277,
+        "posValue": 4462,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "BobbyyHill",
+        "xpValue": 2155,
+        "posValue": 5015,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "xeera01",
+        "xpValue": 2133,
+        "posValue": 5119,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "deranged_archaeologist": {
+      "player1": {
+        "nameValue": "Nez38",
+        "xpValue": 357,
+        "posValue": 462,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 110,
+        "posValue": 3493,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "irl sucks",
+        "xpValue": 109,
+        "posValue": 3552,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 100,
+        "posValue": 4885,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player5": {
+        "nameValue": "x calsifer x",
+        "xpValue": 100,
+        "posValue": 4485,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "duke_sucellus": {
+      "player1": {
+        "nameValue": "K1ERZ",
+        "xpValue": 2672,
+        "posValue": 939,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2334,
+        "posValue": 1330,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "Hameo",
+        "xpValue": 2196,
+        "posValue": 1545,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "lrontitan",
+        "xpValue": 1742,
+        "posValue": 2608,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "partonax",
+        "xpValue": 1293,
+        "posValue": 5260,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "general_graardor": {
+      "player1": {
+        "nameValue": "iOverlander",
+        "xpValue": 4559,
+        "posValue": 1761,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player2": {
+        "nameValue": "WilsC",
+        "xpValue": 3761,
+        "posValue": 2516,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Pac0 De Tac0",
+        "xpValue": 3213,
+        "posValue": 3373,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "Himz",
+        "xpValue": 2428,
+        "posValue": 201,
+        "helmValue": "ironman",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Nez38",
+        "xpValue": 2250,
+        "posValue": 6692,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      }
+    },
+    "giant_mole": {
+      "player1": {
+        "nameValue": "robert t",
+        "xpValue": 7777,
+        "posValue": 789,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "Bl00dyArr0w2",
+        "xpValue": 7777,
+        "posValue": 790,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 7376,
+        "posValue": 922,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player4": {
+        "nameValue": "The geim",
+        "xpValue": 7182,
+        "posValue": 1001,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "frodobaggens",
+        "xpValue": 5537,
+        "posValue": 2107,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "grotesque_guardians": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 8400,
+        "posValue": 71,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 3373,
+        "posValue": 831,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 2891,
+        "posValue": 1209,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "EasyFro",
+        "xpValue": 2756,
+        "posValue": 1346,
+        "helmValue": "regular",
+        "roleValue": "administrator"
+      },
+      "player5": {
+        "nameValue": "unc1ebob",
+        "xpValue": 2545,
+        "posValue": 1597,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "hespori": {
+      "player1": {
+        "nameValue": "nicnad",
+        "xpValue": 558,
+        "posValue": 1358,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player2": {
+        "nameValue": "shirt pocket",
+        "xpValue": 507,
+        "posValue": 567,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "Toids",
+        "xpValue": 446,
+        "posValue": 2436,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      },
+      "player4": {
+        "nameValue": "Gunzyx",
+        "xpValue": 414,
+        "posValue": 2930,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "osleeb",
+        "xpValue": 358,
+        "posValue": 4188,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "kalphite_queen": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 7600,
+        "posValue": 85,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 3517,
+        "posValue": 726,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 2225,
+        "posValue": 1857,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "PickleGate",
+        "xpValue": 2007,
+        "posValue": 2266,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "EasyFro",
+        "xpValue": 2000,
+        "posValue": 2299,
+        "helmValue": "regular",
+        "roleValue": "administrator"
+      }
+    },
+    "king_black_dragon": {
+      "player1": {
+        "nameValue": "gnar bones",
+        "xpValue": 4971,
+        "posValue": 1500,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 3840,
+        "posValue": 2660,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "V  A   N  S",
+        "xpValue": 2889,
+        "posValue": 4627,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "Will O Smith",
+        "xpValue": 2600,
+        "posValue": 5510,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "King Slime",
+        "xpValue": 1956,
+        "posValue": 8652,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      }
+    },
+    "kraken": {
+      "player1": {
+        "nameValue": "frodobaggens",
+        "xpValue": 12578,
+        "posValue": 581,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "frunkyched",
+        "xpValue": 10629,
+        "posValue": 1040,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "Tha Dong",
+        "xpValue": 9000,
+        "posValue": 1891,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "EasyFro",
+        "xpValue": 8298,
+        "posValue": 2409,
+        "helmValue": "regular",
+        "roleValue": "administrator"
+      },
+      "player5": {
+        "nameValue": "mr legi0n",
+        "xpValue": 7996,
+        "posValue": 2735,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "kreearra": {
+      "player1": {
+        "nameValue": "King Slime",
+        "xpValue": 3778,
+        "posValue": 970,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player2": {
+        "nameValue": "K1ERZ",
+        "xpValue": 1793,
+        "posValue": 3724,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "RN BSN",
+        "xpValue": 1667,
+        "posValue": 239,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "xeera01",
+        "xpValue": 1592,
+        "posValue": 4529,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "DarkSage",
+        "xpValue": 1344,
+        "posValue": 6091,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "kril_tsutsaroth": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 2066,
+        "posValue": 1215,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "King Slime",
+        "xpValue": 1711,
+        "posValue": 1765,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player3": {
+        "nameValue": "tiny dik nub",
+        "xpValue": 1497,
+        "posValue": 2264,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player4": {
+        "nameValue": "kvothe o ruh",
+        "xpValue": 1021,
+        "posValue": 4656,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 880,
+        "posValue": 6065,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      }
+    },
+    "lunar_chests": {
+      "player1": {
+        "nameValue": "SquanUK",
+        "xpValue": 294,
+        "posValue": 2466,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player2": {
+        "nameValue": "Nez38",
+        "xpValue": 271,
+        "posValue": 3101,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player3": {
+        "nameValue": "BlueShibaInu",
+        "xpValue": 263,
+        "posValue": 3365,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "osleeb",
+        "xpValue": 220,
+        "posValue": 5368,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "partonax",
+        "xpValue": 212,
+        "posValue": 5816,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "mimic": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 54,
+        "posValue": 319,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 31,
+        "posValue": 1604,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "Z E E E F",
+        "xpValue": 29,
+        "posValue": 1928,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "frodobaggens",
+        "xpValue": 28,
+        "posValue": 2075,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "EasyFro",
+        "xpValue": 24,
+        "posValue": 2912,
+        "helmValue": "regular",
+        "roleValue": "administrator"
+      }
+    },
+    "nex": {
+      "player1": {
+        "nameValue": "aaaron",
+        "xpValue": 5765,
+        "posValue": 1417,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "Tha Dong",
+        "xpValue": 5274,
+        "posValue": 1701,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 3917,
+        "posValue": 3033,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "DarkSage",
+        "xpValue": 3775,
+        "posValue": 3241,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "WilsC",
+        "xpValue": 3311,
+        "posValue": 4116,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "nightmare": {
+      "player1": {
+        "nameValue": "WilsC",
+        "xpValue": 2866,
+        "posValue": 541,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "irl sucks",
+        "xpValue": 1200,
+        "posValue": 2149,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Fadedboys",
+        "xpValue": 1040,
+        "posValue": 2649,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "NeverGambled",
+        "xpValue": 967,
+        "posValue": 2967,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player5": {
+        "nameValue": "redant905",
+        "xpValue": 868,
+        "posValue": 3406,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "phosanis_nightmare": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 1046,
+        "posValue": 1690,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Bronly Fans",
+        "xpValue": 805,
+        "posValue": 2420,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "a zuzakini",
+        "xpValue": 790,
+        "posValue": 2482,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player4": {
+        "nameValue": "rflars",
+        "xpValue": 603,
+        "posValue": 3529,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "osleeb",
+        "xpValue": 334,
+        "posValue": 6779,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "obor": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 270,
+        "posValue": 651,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "its the game",
+        "xpValue": 219,
+        "posValue": 1119,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 100,
+        "posValue": 5715,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "Fatgeezer1",
+        "xpValue": 94,
+        "posValue": 6363,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "osleeb",
+        "xpValue": 59,
+        "posValue": 13255,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "phantom_muspah": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 4800,
+        "posValue": 167,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 3550,
+        "posValue": 301,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "Gunzyx",
+        "xpValue": 3350,
+        "posValue": 341,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "No luck Dave",
+        "xpValue": 2586,
+        "posValue": 526,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "redant905",
+        "xpValue": 1454,
+        "posValue": 1405,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "sarachnis": {
+      "player1": {
+        "nameValue": "EasyFro",
+        "xpValue": 4430,
+        "posValue": 786,
+        "helmValue": "regular",
+        "roleValue": "administrator"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 4012,
+        "posValue": 955,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 3347,
+        "posValue": 1373,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player4": {
+        "nameValue": "SquanUK",
+        "xpValue": 2428,
+        "posValue": 2322,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "I am Donuts",
+        "xpValue": 2277,
+        "posValue": 2561,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "scorpia": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 3700,
+        "posValue": 452,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Mullett",
+        "xpValue": 3078,
+        "posValue": 712,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 2308,
+        "posValue": 1225,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "nicnad",
+        "xpValue": 1356,
+        "posValue": 2695,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player5": {
+        "nameValue": "King Slime",
+        "xpValue": 1071,
+        "posValue": 3696,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      }
+    },
+    "scurrius": {
+      "player1": {
+        "nameValue": "Gunzyx",
+        "xpValue": 3021,
+        "posValue": 1160,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "hazeyjoint",
+        "xpValue": 1300,
+        "posValue": 3831,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1100,
+        "posValue": 4732,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 1085,
+        "posValue": 4841,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "crazystorm8",
+        "xpValue": 900,
+        "posValue": 6139,
+        "helmValue": "regular",
+        "roleValue": "onyx"
+      }
+    },
+    "skotizo": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 1163,
+        "posValue": 26,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "Duvelicious",
+        "xpValue": 108,
+        "posValue": 3722,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 100,
+        "posValue": 4715,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "K1ERZ",
+        "xpValue": 97,
+        "posValue": 5367,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "frodobaggens",
+        "xpValue": 96,
+        "posValue": 5535,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "sol_heredit": {
+      "player1": {
+        "nameValue": "matoohee",
+        "xpValue": 121,
+        "posValue": 286,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 80,
+        "posValue": 651,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player3": {
+        "nameValue": "a zuzakini",
+        "xpValue": 54,
+        "posValue": 1221,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player4": {
+        "nameValue": "Poey",
+        "xpValue": 26,
+        "posValue": 3116,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player5": {
+        "nameValue": "Anchondo",
+        "xpValue": 21,
+        "posValue": 3812,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      }
+    },
+    "spindel": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2100,
+        "posValue": 1673,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "its the game",
+        "xpValue": 1709,
+        "posValue": 2475,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "lrontitan",
+        "xpValue": 1448,
+        "posValue": 3337,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "corvidae55",
+        "xpValue": 1286,
+        "posValue": 4088,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "hinyana",
+        "xpValue": 1228,
+        "posValue": 1551,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      }
+    },
+    "tempoross": {
+      "player1": {
+        "nameValue": "robert t",
+        "xpValue": 1612,
+        "posValue": 2076,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "lemurlh",
+        "xpValue": 1168,
+        "posValue": 4167,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "agv",
+        "xpValue": 1065,
+        "posValue": 4931,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "Dirty NiiNjA",
+        "xpValue": 1017,
+        "posValue": 5341,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Toids",
+        "xpValue": 905,
+        "posValue": 6579,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      }
+    },
+    "the_gauntlet": {
+      "player1": {
+        "nameValue": "redant905",
+        "xpValue": 227,
+        "posValue": 3320,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player2": {
+        "nameValue": "Yveltal Egg",
+        "xpValue": 205,
+        "posValue": 4125,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "ferisbeuller",
+        "xpValue": 200,
+        "posValue": 1267,
+        "helmValue": "ironman",
+        "roleValue": "red_topaz"
+      },
+      "player4": {
+        "nameValue": "Rokkenjima",
+        "xpValue": 189,
+        "posValue": 1450,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      },
+      "player5": {
+        "nameValue": "x calsifer x",
+        "xpValue": 153,
+        "posValue": 7358,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "the_corrupted_gauntlet": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 1908,
+        "posValue": 3126,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "Smart Foam",
+        "xpValue": 1154,
+        "posValue": 8417,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "Wet Tick",
+        "xpValue": 1115,
+        "posValue": 2447,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "RN BSN",
+        "xpValue": 1099,
+        "posValue": 2568,
+        "helmValue": "ironman",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Yveltal Egg",
+        "xpValue": 1082,
+        "posValue": 9550,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "the_leviathan": {
+      "player1": {
+        "nameValue": "agv",
+        "xpValue": 3978,
+        "posValue": 296,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "a zuzakini",
+        "xpValue": 2092,
+        "posValue": 1112,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "robert t",
+        "xpValue": 2083,
+        "posValue": 1121,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "Gunzyx",
+        "xpValue": 1993,
+        "posValue": 1254,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Anchondo",
+        "xpValue": 1857,
+        "posValue": 1462,
+        "helmValue": "regular",
+        "roleValue": "admiral"
+      }
+    },
+    "the_whisperer": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 6200,
+        "posValue": 86,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 4607,
+        "posValue": 141,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "partonax",
+        "xpValue": 2175,
+        "posValue": 552,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "a zuzakini",
+        "xpValue": 1343,
+        "posValue": 1627,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "Smart Foam",
+        "xpValue": 1058,
+        "posValue": 2699,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "theatre_of_blood": {
+      "player1": {
+        "nameValue": "RoBoat",
+        "xpValue": 1205,
+        "posValue": 3726,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player2": {
+        "nameValue": "ferisbeuller",
+        "xpValue": 770,
+        "posValue": 1460,
+        "helmValue": "ironman",
+        "roleValue": "red_topaz"
+      },
+      "player3": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 743,
+        "posValue": 8509,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "phenyl",
+        "xpValue": 734,
+        "posValue": 8669,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "NukexDK",
+        "xpValue": 672,
+        "posValue": 9797,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "theatre_of_blood_hard_mode": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 600,
+        "posValue": 738,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "Dune Raid",
+        "xpValue": 391,
+        "posValue": 2008,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "nicnad",
+        "xpValue": 367,
+        "posValue": 2229,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player4": {
+        "nameValue": "phenyl",
+        "xpValue": 350,
+        "posValue": 2415,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "a zuzakini",
+        "xpValue": 209,
+        "posValue": 4948,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "thermonuclear_smoke_devil": {
+      "player1": {
+        "nameValue": "Old Delf",
+        "xpValue": 4436,
+        "posValue": 3152,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "Mana Vault",
+        "xpValue": 3863,
+        "posValue": 4541,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "xHannna",
+        "xpValue": 3162,
+        "posValue": 7404,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "nicnad",
+        "xpValue": 3066,
+        "posValue": 7960,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      },
+      "player5": {
+        "nameValue": "poompkin",
+        "xpValue": 3036,
+        "posValue": 8137,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      }
+    },
+    "tombs_of_amascut": {
+      "player1": {
+        "nameValue": "lrontitan",
+        "xpValue": 390,
+        "posValue": 1320,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "its the game",
+        "xpValue": 373,
+        "posValue": 1532,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player3": {
+        "nameValue": "No RNG Life",
+        "xpValue": 340,
+        "posValue": 2105,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "Twisstted",
+        "xpValue": 297,
+        "posValue": 3328,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "Spawn Sebby",
+        "xpValue": 291,
+        "posValue": 3539,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "tombs_of_amascut_expert": {
+      "player1": {
+        "nameValue": "Arkagami",
+        "xpValue": 811,
+        "posValue": 1532,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "The Hype God",
+        "xpValue": 811,
+        "posValue": 1531,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "Guru51",
+        "xpValue": 791,
+        "posValue": 1643,
+        "helmValue": "regular",
+        "roleValue": "red_topaz"
+      },
+      "player4": {
+        "nameValue": "a zuzakini",
+        "xpValue": 656,
+        "posValue": 2875,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "J Chin",
+        "xpValue": 610,
+        "posValue": 3515,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      }
+    },
+    "tzkal_zuk": {
+      "player1": {
+        "nameValue": "Jasjag",
+        "xpValue": 12,
+        "posValue": 880,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      },
+      "player2": {
+        "nameValue": "NukexDK",
+        "xpValue": 11,
+        "posValue": 4803,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "Dune Raid",
+        "xpValue": 10,
+        "posValue": 5148,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player4": {
+        "nameValue": "a zuzakini",
+        "xpValue": 9,
+        "posValue": 5968,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "nicnad",
+        "xpValue": 7,
+        "posValue": 7416,
+        "helmValue": "regular",
+        "roleValue": "deputy_owner"
+      }
+    },
+    "tztok_jad": {
+      "player1": {
+        "nameValue": "osleeb",
+        "xpValue": 120,
+        "posValue": 756,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 78,
+        "posValue": 1904,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "WilsC",
+        "xpValue": 75,
+        "posValue": 2030,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "frodobaggens",
+        "xpValue": 68,
+        "posValue": 2489,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "Dimsha",
+        "xpValue": 50,
+        "posValue": 5042,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "vardorvis": {
+      "player1": {
+        "nameValue": "Gunzyx",
+        "xpValue": 8350,
+        "posValue": 95,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "H A L S E Y",
+        "xpValue": 3055,
+        "posValue": 1472,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "robert t",
+        "xpValue": 2914,
+        "posValue": 1673,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "a zuzakini",
+        "xpValue": 2366,
+        "posValue": 2923,
+        "helmValue": "regular",
+        "roleValue": "colonel"
+      },
+      "player5": {
+        "nameValue": "tobaloba",
+        "xpValue": 1735,
+        "posValue": 6163,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "venenatis": {
+      "player1": {
+        "nameValue": "gnar bones",
+        "xpValue": 2942,
+        "posValue": 1781,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "osleeb",
+        "xpValue": 2656,
+        "posValue": 2159,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player3": {
+        "nameValue": "1Sh0t",
+        "xpValue": 1965,
+        "posValue": 3779,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player4": {
+        "nameValue": "atronus1",
+        "xpValue": 1571,
+        "posValue": 5283,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Harizs",
+        "xpValue": 1525,
+        "posValue": 5532,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      }
+    },
+    "vetion": {
+      "player1": {
+        "nameValue": "Bronly Fans",
+        "xpValue": 1690,
+        "posValue": 1962,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player2": {
+        "nameValue": "Mullett",
+        "xpValue": 1455,
+        "posValue": 2519,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 1224,
+        "posValue": 3320,
+        "helmValue": "regular",
+        "roleValue": "completionist"
+      },
+      "player4": {
+        "nameValue": "Nez38",
+        "xpValue": 1000,
+        "posValue": 4640,
+        "helmValue": "regular",
+        "roleValue": "brigadier"
+      },
+      "player5": {
+        "nameValue": "Val Ferro",
+        "xpValue": 852,
+        "posValue": 1027,
+        "helmValue": "ironman",
+        "roleValue": "administrator"
+      }
+    },
+    "vorkath": {
+      "player1": {
+        "nameValue": "Augustinas",
+        "xpValue": 6275,
+        "posValue": 5081,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "doreiona",
+        "xpValue": 3686,
+        "posValue": 10260,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player3": {
+        "nameValue": "Flag of Fiji",
+        "xpValue": 3017,
+        "posValue": 13669,
+        "helmValue": "regular",
+        "roleValue": "red_topaz"
+      },
+      "player4": {
+        "nameValue": "Guru51",
+        "xpValue": 2853,
+        "posValue": 14823,
+        "helmValue": "regular",
+        "roleValue": "red_topaz"
+      },
+      "player5": {
+        "nameValue": "Bl00dyArr0w2",
+        "xpValue": 2847,
+        "posValue": 14860,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "wintertodt": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 5430,
+        "posValue": 627,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "Gunzyx",
+        "xpValue": 3056,
+        "posValue": 1369,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2700,
+        "posValue": 1634,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player4": {
+        "nameValue": "King Slime",
+        "xpValue": 1358,
+        "posValue": 4585,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player5": {
+        "nameValue": "Ayo Fookers",
+        "xpValue": 1147,
+        "posValue": 6258,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "zalcano": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 4100,
+        "posValue": 742,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "King Slime",
+        "xpValue": 2127,
+        "posValue": 1820,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player3": {
+        "nameValue": "NeverGambled",
+        "xpValue": 1434,
+        "posValue": 3190,
+        "helmValue": "regular",
+        "roleValue": "sapphire"
+      },
+      "player4": {
+        "nameValue": "Flag of Fiji",
+        "xpValue": 1429,
+        "posValue": 3206,
+        "helmValue": "regular",
+        "roleValue": "red_topaz"
+      },
+      "player5": {
+        "nameValue": "agv",
+        "xpValue": 1294,
+        "posValue": 3794,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      }
+    },
+    "zulrah": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 16500,
+        "posValue": 754,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "rflars",
+        "xpValue": 14000,
+        "posValue": 1143,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player3": {
+        "nameValue": "Scuffed Valk",
+        "xpValue": 12174,
+        "posValue": 1560,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player4": {
+        "nameValue": "SuperVegeto",
+        "xpValue": 10385,
+        "posValue": 2239,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player5": {
+        "nameValue": "Labne",
+        "xpValue": 9597,
+        "posValue": 2729,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      }
+    },
+    "ehp": {
+      "player1": {
+        "nameValue": "Z E E E F",
+        "xpValue": 4709.982023727059,
+        "posValue": 340,
+        "helmValue": "regular",
+        "roleValue": "quester"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 2448.516389627378,
+        "posValue": 1258,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 2057.175329299946,
+        "posValue": 1989,
+        "helmValue": "regular",
+        "roleValue": "tzkal"
+      },
+      "player4": {
+        "nameValue": "frodobaggens",
+        "xpValue": 2036.88857057617,
+        "posValue": 2069,
+        "helmValue": "regular",
+        "roleValue": "elite"
+      },
+      "player5": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2015.410185337162,
+        "posValue": 2121,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      }
+    },
+    "ehb": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 3427.8551,
+        "posValue": 385,
+        "helmValue": "regular",
+        "roleValue": "owner"
+      },
+      "player2": {
+        "nameValue": "agv",
+        "xpValue": 2191.251549999999,
+        "posValue": 2236,
+        "helmValue": "regular",
+        "roleValue": "recruit"
+      },
+      "player3": {
+        "nameValue": "ferisbeuller",
+        "xpValue": 2063.91307,
+        "posValue": 1225,
+        "helmValue": "ironman",
+        "roleValue": "red_topaz"
+      },
+      "player4": {
+        "nameValue": "Wet Tick",
+        "xpValue": 1711.13677,
+        "posValue": 2071,
+        "helmValue": "ironman",
+        "roleValue": "completionist"
+      },
+      "player5": {
+        "nameValue": "a zuzakini",
+        "xpValue": 1703.19589,
+        "posValue": 4798,
+        "helmValue": "regular",
+        "roleValue": "colonel"
       }
     }
   }

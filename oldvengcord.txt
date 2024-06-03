@@ -1,0 +1,604 @@
+function sendToDiscord() {
+  //updateWOM();
+  extractFromWOM();
+  extractFromCLOG();
+  sendHiscores();
+  sendPets();
+  sendClog();
+}
+
+function readCellOnDiscordSheet() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('DISCORD');
+  var cellValue = sheet.getRange('A1').getValue();
+  return cellValue;
+}
+
+function getSheetData(SHEET_NAME) {
+  var SHEET = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  var RANGE = SHEET.getDataRange();
+  var DATA = RANGE.getValues();
+  return DATA;
+}
+
+function getSheet(SHEET_NAME){
+  var SHEET = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  return SHEET;
+}
+
+function sendHiscores(){
+  var HISCORES = getSheetData('HISCORES');
+  var content = '';
+  var rowContent = '';
+  for (var i = 0; i < HISCORES.length; i++) {
+    if (HISCORES[i][0] === 200000000 || HISCORES[i][0] === 4600000000) {
+      HISCORES[i][2] = ':star2:' + HISCORES[i][2];
+    }
+
+    if (HISCORES[i][0] >= 1000000000) {
+      HISCORES[i][0] = (HISCORES[i][0] / 1000000000).toFixed(3) + "B";
+    } else if (HISCORES[i][0] >= 1000000) {
+      HISCORES[i][0] = (HISCORES[i][0] / 1000000).toFixed(0) + "M";
+    } else {
+      HISCORES[i][0] = HISCORES[i][0].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    rowContent = '\u200e' + HISCORES[i].join("\t") + "\n"; // Join row HISCORES with tabs and add a new line
+    if (content.length + rowContent.length <= 1900) {
+      content += rowContent; //Add row together until limit reached
+    } else {
+      processContent('\t' + content);
+      Utilities.sleep(3000); //TODO: Parse error and set sleep accordingly
+      content = '\u200e' + rowContent; // Start a new content chunk
+    }
+  }
+  content += '\n';
+  if (content.length > 0) {
+    processContent(content);; // Send any remaining content
+  }
+}
+
+
+
+function sendPets(){
+  var PETS = getSheetData('PETS');
+  var content = '';
+  var rowContent = '';
+  for (var iPET = 0; iPET < PETS.length; iPET++) {
+
+		rowContent = '\u200e' + PETS[iPET].join("\t") + "\n"; // Join row PETS with tabs 
+		if (content.length + rowContent.length <= 1900) {
+		  content += rowContent; //Add row together until limit reached
+		} else {
+		  processContent('\t' + content);
+      Utilities.sleep(3000);
+		  content = '\u200e' + rowContent; // Start a new content chunk
+		}
+	}
+	content += '\n';
+  if (content.length > 0) {
+    processContent(content);; // Send any remaining content
+  }
+}
+
+function sendClog(){
+  var CLOG = getSheetData('CLOG');
+  var content = '';
+  var rowContent = '';
+  for (var iCLOG = 0; iCLOG < CLOG.length; iCLOG++) {
+		rowContent = '\u200e' + CLOG[iCLOG].join("\t") + "\n"; // Join row CLOG with tabs and add a new line
+		if (content.length + rowContent.length <= 1900) {
+		  content += rowContent; //Add row together until limit reached
+		} else {
+		  processContent('\t' + content);
+      Utilities.sleep(3000);
+		  content = '\u200e' + rowContent; // Start a new content chunk
+		}
+	}
+  if (content.length > 0) {
+    processContent(content);; // Send any remaining content
+  }
+}
+
+function sendExtra(){
+  if (content.length > 0) {
+    processContent(content);; // Send any remaining content
+  }
+}
+
+
+function processContent(content) {
+  var url = readCellOnDiscordSheet(); // Replace with your actual webhook URL
+  var jsonData = {
+    content: content
+  };
+  var payload = JSON.stringify(jsonData);
+
+  var options = {
+    method: 'post',
+    contentType: 'application/json',
+    payload: payload
+  };
+
+  UrlFetchApp.fetch(url, options);
+}
+
+function declareMetrics(){
+  var metrics = [
+    { 
+      category: 'exp', 
+      metrics: [
+      {type:'overall', icon: '<:total:1214432773541203968>', display: '**Total Experience**'}
+      ] 
+    },
+    {
+      category: 'experience', 
+      metrics: [
+      {type: 'attack', icon: '<:Attack:827239009280983154>', display: '**Attack**'}, 
+      {type: 'defence', icon: '<:Defence_icon:827239009355956226>', display: '**Defence**'}, 
+      {type: 'strength', icon: '<:Strength:827239009440628737>', display: '**Strength**'}, 
+      {type: 'hitpoints', icon: '<:Hitpoints:827239009683243088>', display: '**Hitpoints**'}, 
+      {type: 'ranged', icon: '<:Ranged_icon:827239009569865818>', display: '**Ranged**'}, 
+      {type: 'prayer', icon: '<:Prayer_icon:827239009449148418>', display: '**Prayer**'}, 
+      {type: 'magic', icon: '<:Magic:827239009683111946>', display: '**Magic**'}, 
+      {type: 'cooking', icon: '<:Cooking:827239009629241384>', display: '**Cooking**'}, 
+      {type: 'woodcutting', icon: '<:Woodcutting:827239009700675654>', display: '**Woodcutting**'}, 
+      {type: 'fletching', icon: '<:Fletching:827239009721122926>', display: '**Fletching**'}, 
+      {type: 'fishing', icon: '<:Fishing:827239009461207091>', display: '**Fishing**'}, 
+      {type: 'firemaking', icon: '<:Firemaking_icon:827239009620983880>', display: '**Firemaking**'}, 
+      {type: 'crafting', icon: '<:Crafting:827239009872773140>', display: '**Crafting**'}, 
+      {type: 'smithing', icon: '<:Smithing_icon:827239009763197028>', display: '**Smithing**'}, 
+      {type: 'mining', icon: '<:Mining_icon:827239009670791278>', display: '**Mining**'}, 
+      {type: 'herblore', icon: '<:Herblore:827239009641037864>', display: '**Herblore**'}, 
+      {type: 'agility', icon: '<:Agility_icon:827239009683636244>', display: '**Agility**'}, 
+      {type: 'thieving', icon: '<:Thieving:827239009431977986>', display: '**Thieving**'}, 
+      {type: 'slayer', icon: '<:slayer:650527853984743453>', display: '**Slayer**'}, 
+      {type: 'farming', icon: '<:Farming_icon:827239009608007740>', display: '**Farming**'}, 
+      {type: 'runecrafting', icon: '<:Runecraft:827239009616134154>', display: '**Runecrafting**'}, 
+      {type: 'hunter', icon: '<:Hunter:827239009586774076>', display: '**Hunter**'}, 
+      {type: 'construction', icon: '<:Construction_icon:827239009742487572>', display: '**Construction**'}
+      ]
+    },
+    {
+      category: 'score',
+      metrics: [
+      { type: 'clue_scrolls_all', icon: '<:all_clues:866763768523128872>', display: '**All Clues**' },
+      { type: 'clue_scrolls_beginner', icon: '<:beginner_clue:866763779676962856>', display: '**Beginner Clues**' },
+      { type: 'clue_scrolls_easy', icon: '<:easy_clue:866763798685024256>', display: '**Easy Clues**' },
+      { type: 'clue_scrolls_medium', icon: '<:medium_clue:866763827969785860>', display: '**Medium Clues**' },
+      { type: 'clue_scrolls_hard', icon: '<:hard_clue:866763842142339095>', display: '**Hard Clues**' },
+      { type: 'clue_scrolls_elite', icon: '<:elite_clue:866763854419066881>', display: '**Elite Clues**' },
+      { type: 'clue_scrolls_master', icon: '<:master_clue:866763869867212822>', display: '**Master Clues**' },
+      { type: 'last_man_standing', icon: '<:LMS:866764495774023680>', display: '**Last Man Standing**' },
+      { type: 'soul_wars_zeal', icon: '<:zeal:866764716347883580>', display: '**Zeal**' },
+      { type: 'guardians_of_the_rift', icon: '<:abyssal_protector:1214740819232423936>', display: '**Guardians of the Rift**' },
+      { type: 'pvp_arena', icon: '<:pvp_arena:1009237483218804766>', display: '**Pvp Arena**' },
+      { type: 'colosseum_glory', icon: '<:Smolheredit:1223300448346443877>', display: '**Colosseum Glory**' }
+      
+
+
+
+      ]
+    },
+    {
+      category: 'kills',
+      metrics: [
+      { type: 'abyssal_sire', icon: '<:abyssal_sire:866763602253316106>', display: '**Abyssal Sire**' },
+      { type: 'alchemical_hydra', icon: '<:alchemical_hydra:866763624751562802>', display: '**Alchemical Hydra**' },
+      { type: 'artio', icon: '<:artio:1107112013060116571>', display: '**Artio**' },
+      { type: 'barrows_chests', icon: '<:barrows:866763641760251924>', display: '**Barrows**' },
+      { type: 'bryophyta', icon: '<:Bryophyta:1107112334645805067>', display: '**Bryophyta**' },
+      { type: 'callisto', icon: '<:callisto:866763681491582996>', display: '**Callisto**' },
+      { type: 'calvarion', icon: '<:Calvarion:1107112605987897404>', display: '**Calvarion**' },
+      { type: 'cerberus', icon: '<:cerb:866763694015512667>', display: '**Cerberus**' },
+      { type: 'chambers_of_xeric', icon: '<:CoX:866763706397098014>', display: '**Chambers of Xeric**' },
+      { type: 'chambers_of_xeric_challenge_mode', icon: '<:CoX_CM:866763717885689857>', display: '**Chambers of Xeric Challenge Mode**' },
+      { type: 'chaos_elemental', icon: '<:chaos_ele:866763740363751454>', display: '**Chaos Elemental**' },
+      { type: 'chaos_fanatic', icon: '<:chaos_fanatic:866763752002551848>', display: '**Chaos Fanatic**' },
+      { type: 'commander_zilyana', icon: '<:Sara:866763892087848990>', display: '**Commander Zilyana**' },
+      { type: 'corporeal_beast', icon: '<:corporeal_beast:1107117462912237608>', display: '**Corporeal Beast**' },
+      { type: 'crazy_archaeologist', icon: '<:crazy_archaeologist:866763917136101377>', display: '**Crazy Archaeologist**' },
+      { type: 'dagannoth_prime', icon: '<:prime:866763929338511360>', display: '**Dagannoth Prime**' },
+      { type: 'dagannoth_rex', icon: '<:rex:866763949223444500>', display: '**Dagannoth Rex**' },
+      { type: 'dagannoth_supreme', icon: '<:supreme:866763968684883989>', display: '**Dagannoth Supreme**' },
+      { type: 'deranged_archaeologist', icon: '<:deranged_archaeologist:866764280413028377>', display: '**Deranged Archaeologist**' },
+      { type: 'duke_sucellus', icon: '<:Duke:1141039509492994129>', display: '**Duke Sucellus**' },
+      { type: 'general_graardor', icon: '<:bandos:866764320616218684>', display: '**General Graardor**' },
+      { type: 'giant_mole', icon: '<:mole:733540186448986202>', display: '**Giant Mole**' },
+      { type: 'grotesque_guardians', icon: '<:guardians:866764344871092254>', display: '**Grotesque Guardians**' },
+      { type: 'hespori', icon: '<:hespori:866764356552491058>', display: '**Hespori**' },
+      { type: 'kalphite_queen', icon: '<:KQ:866764383026937876>', display: '**Kalphite Queen**' },
+      { type: 'king_black_dragon', icon: '<:KBD:866764404136738836>', display: '**King Black Dragon**' },
+      { type: 'kraken', icon: '<:kraken:866764439045799986>', display: '**Kraken**' },
+      { type: 'kreearra', icon: '<:kreearra:866764455315767296>', display: '**Kreearra**' },
+      { type: 'kril_tsutsaroth', icon: '<:zammy:866764472869322772>', display: '**K\'ril Tsutsaroth**' },
+      { type: 'lunar_chests', icon: '<:Lunar_Chest:1223304221613494494>', display: '**Lunar Chests**' },
+      { type: 'mimic', icon: '<:mimic:866764515168878627>', display: '**Mimic**' },
+      { type: 'nex', icon: '<:Nex:932108512316751903>', display: '**Nex**' },
+      { type: 'nightmare', icon: '<:nightmare:866764540389359657>', display: '**Nightmare**' },
+      { type: 'phosanis_nightmare', icon: '<:phosanis_NM:866764612022829116>', display: '**Phosani\'s Nightmare**' },
+      { type: 'obor', icon: '<:Obor:1107118267774009364>', display: '**Obor**' },
+      { type: 'phantom_muspah', icon: '<:Muspah:1070373724202733698>', display: '**Phantom Muspah**' },
+      { type: 'sarachnis', icon: '<:sarachnis:866764650851074049>', display: '**Sarachnis**' },
+      { type: 'scorpia', icon: '<:scorpia:866764679844724777>', display: '**Scorpia**' },
+      { type: 'scurrius', icon: '<:Scurry:1200238875155636234>', display: '**Scurrius**' },
+      { type: 'skotizo', icon: '<:skotizo:866764695351984158>', display: '**Skotizo**' },
+      { type: 'sol_heredit', icon: "<:Smolheredit:1223300448346443877>", display: "**Fortis Colosseum**" },
+      { type: 'spindel', icon: '<:Spindel:1107112822099415170>', display: '**Spindel**' },
+      { type: 'tempoross', icon: '<:tempoross:866764731335180299>', display: '**Tempoross**' },
+      { type: 'the_gauntlet', icon: '<:gauntlet:866764758552150016>', display: '**The Gauntlet**' },
+      { type: 'the_corrupted_gauntlet', icon: '<:corrupted_gauntlet:866764744894971944>', display: '**The Corrupted Gauntlet**' },
+      { type: 'the_leviathan', icon: '<:Leviathan:1141039535917125722>', display: '**The Leviathan**' },
+      { type: 'the_whisperer', icon: '<:Whisperer:1141039606956032094>', display: '**The Whisperer**' },
+      { type: "theatre_of_blood", icon: "<:ToB:866764781745864704>", display: "**Theatre of Blood**" },
+      { type: "theatre_of_blood_hard_mode", icon: "<:ToB_HM:866764811235885079>", display: "**Theatre of Blood HM**" },
+      { type: "thermonuclear_smoke_devil", icon: "<:thermy:866782001998200852>", display: "**Thermonuclear Smoke Devil**" },
+      { type: "tombs_of_amascut", icon: "<:Tombs_of_Amascut_Normal_Mode_ic:1037201320521768980>", display: "**Tombs of Amascut**" },
+      { type: "tombs_of_amascut_expert", icon: "<:tombs_of_amascut_expert:1070375251847950448>", display: "**Tombs of Amascut Expert**" },
+      { type: "tzkal_zuk", icon: "<:zuk:866782042456588288>", display: "**Zuk**" },
+      { type: "tztok_jad", icon: "<:jad:866782063793143848>", display: "**Jad**" },
+      { type: "vardorvis", icon: "<:Vardorvis:1141039578493497385>", display: "**Vardorvis**" },
+      { type: "venenatis", icon: "<:venenatis_spiderling:1070376695007281284>", display: "**Venenatis**" },
+      { type: "vetion", icon: "<:vetion:866782085329846272>", display: "**Vetion**" },
+      { type: "vorkath", icon: "<:vork:866782101034631179>", display: "**Vorkath**" },
+      { type: "wintertodt", icon: "<:wintertodt:866782114720645181>", display: "**Wintertodt**" },
+      { type: "zalcano", icon: "<:zalcano:866782127533719602>", display: "**Zalcano**" },
+      { type: "zulrah", icon: "<:zulrah:866782139591819266>", display: "**Zulrah**" }  
+      ]
+    },
+    { 
+      category: 'ehp', 
+      metrics: [
+        {type: 'ehp', icon: '<:ehp:866764309131558928>', display: '**Efficient Hours Played**'}
+      ] 
+    },
+    { 
+      category: 'ehb', 
+      metrics: [
+      {type: 'ehb', icon: '<:ehb:866764296184922132>', display: '**Efficient Hours Bosses**'}
+      ] 
+    }
+  ];
+  //console.log(metrics[1].metrics[0]);
+  return metrics;
+}
+
+  
+
+
+function petIcons(){
+  var pet_icons = {
+  '11995': '<:chaos_ele:866763740363751454>',
+  '12643': '<:supreme:866763968684883989>',
+  '12644': '<:prime:866763929338511360>',
+  '12645': '<:rex:866763949223444500>',
+  '12703': '<:Petpenancequeen:1218339170494320751>',
+  '12649': '<:kreearra:866764455315767296>',
+  '12650': '<:bandos:866764320616218684>',
+  '12651': '<:Sara:866763892087848990>',
+  '12652': '<:zammy:866764472869322772>',
+  '12646': '<:mole:733540186448986202>',
+  '12653': '<:Princeblackdragon:1215383753141264474>',
+  '12647': '<:Kalphiteprincess:1215383878827769866>',
+  '12648': '<:thermy:866782001998200852>',
+  '12655': '<:kraken:866764439045799986>',
+  '12816': '<:Petdarkcore:1215384034851426304>',
+  '12921': '<:Petsnakeling:1215147932710338590>',
+  '13071': '<:Chompychick:1215147927249485925>',
+  '13177': '<:venenatis_spiderling:1070376695007281284>',
+  '13178': '<:callisto_cub:1070377146939359363>',
+  '13179': '<:vetion_jr:1070377416553414716>',
+  '13181': '<:scorpia:866764679844724777>',
+  '13225': '<:jad:866782063793143848>',
+  '13247': '<:cerb:866763694015512667>',
+  '13262': '<:Abyssalorphan:1215240509052944415>',
+  '13320': '<:Heron:1215147931712102412>',
+  '13321': '<:Rockgolem:1215147934774206484>',
+  '13322': '<:Beaver:1215147925705982003>',
+  '13324': '<:Chinchompa:1215147924225400892>',
+  '19730': '<:Bloodhound:1215384603259437066>',
+  '20659': '<:Giantsquirrel:1215147929065619529>',
+  '20661': '<:Tangleroot:1215147938368716841>',
+  '20665': '<:Riftguardian:1215385270640181289>',
+  '20663': '<:Rocky:1215148024591028244>',
+  '20693': '<:Phoenix:1215147933763379231>',
+  '20851': '<:CoX:866763706397098014>',
+  '21273': '<:skotizo:866764695351984158>',
+  '21291': '<:Jalnibrek:1218338448465854524>',
+  '21509': '<:Herbi:1215147930437161010>',
+  '21748': '<:guardians:866764344871092254>',
+  '21992': '<:vork:866782101034631179>',
+  '22473': '<:ToB:866764781745864704>',
+  '22746': '<:Ikklehydra:1215241396600963132>',
+  '23495': '<:sarachnis:866764650851074049>',
+  '23757': '<:gauntlet:866764758552150016>',
+  '23760': '<:zalcano:866782127533719602>',
+  '24491': '<:nightmare:866764540389359657>',
+  '25348': '<:Lilcreator:1215385077177917574>',
+  '25602': '<:Tinytempor:1218339927419392200>',
+  '26348': '<:Nexling:1218339925326303276>',
+  '26901': '<:abyssal_protector:1214740819232423936>',
+  '27352': '<:toapet:1215149897724989480>',
+  '27590': '<:Muphin:1215150100414996530>',
+  '28246': '<:Whisperer:1141039606956032094>',
+  '28248': '<:Vardorvis:1141039578493497385>',
+  '28252': '<:Leviathan:1141039535917125722>',
+  '28250': '<:Duke:1141039509492994129>',
+  '28801': '<:Scurry:1200238875155636234>',
+  '28962': '<:Quetzin:1223453758671814716>',
+  '28960': '<:Smolheredit:1223300448346443877>'
+  }
+  return pet_icons;
+}
+
+function categoryTitles() {
+  var titles = {
+    'efficiency': '<:ehp:866764309131558928> **Efficiency** <:ehp:866764309131558928>',
+    'skilling': '<:total:1214432773541203968> **Skilling** <:total:1214432773541203968>',
+    'activities': '<:master_clue:866763869867212822> **Activities** <:master_clue:866763869867212822>',
+    'bossing': ':crossed_swords: **Bossing** :crossed_swords:',
+    'dashSpace': ' - ',
+    'ironman': '<:Ironman:1215134698670661652>',
+    'hardcore': '<:Hardcore:1215134697584066620>',
+    'ultimate': '<:Ultimate:1215134700067102720>'
+  };
+  return titles;
+}
+
+function updateWOM(){
+  var verificationCode = '815-815-429';
+  var url = 'https://api.wiseoldman.net/v2/groups/1219/update-all';
+
+  var payload = {
+    'verificationCode': verificationCode  // Make sure the key matches the expected parameter name
+  };
+
+    var options = {
+        'method': 'post',
+        'contentType': 'application/json',
+        'payload': JSON.stringify(payload),
+        'headers': {
+            'User-Agent': 'Vengienz Hiscore Testing'
+        },
+        'muteHttpExceptions': true  // Enable to see full response for debugging
+    };
+
+    var response = UrlFetchApp.fetch(url, options);
+    Logger.log(response.getContentText());
+    while(response.count > 0)
+    {
+      Utilities.sleep(60000)
+      response = UrlFetchApp.fetch(url, options);
+      Logger.log(response.getContentText());
+    }
+}
+
+function extractFromWOM(){
+  var API_URL = 'https://api.wiseoldman.net/v2/groups/1219/hiscores?metric=';
+  var HISCORES = getSheet('HISCORES');
+  var userAgent = 'Vengienz Community Hiscores testing';
+  var startTime = new Date();
+  var limit = 5; // Maximum limit per request
+  var requestsMade = 0;
+  var values = [];
+  var metrics = declareMetrics();
+  var titles = categoryTitles();
+  //efficiency = titles.efficiency
+ 
+  for (var i = 0; i < metrics.length; i++) {
+    for (var j = 0; j < metrics[i].metrics.length; j++) {
+      var url = API_URL + metrics[i].metrics[j].type + '&limit=' + limit;
+      
+      // Check if the rate limit is reached
+      if (requestsMade >= 20) {
+        var currentTime = new Date();
+        var elapsedTime = currentTime - startTime;
+        if (elapsedTime < 60000) {
+          Utilities.sleep(60000 - elapsedTime); // Wait for the remaining time in the 60-second window
+        }
+        requestsMade = 0; // Reset the requests counter
+        startTime = new Date(); // Reset the start time
+      }
+
+      try {
+      // Replace 'your_metric' with the actual metric you're querying
+      var response = UrlFetchApp.fetch(url, {headers: { 'User-Agent': userAgent }});
+      requestsMade++;
+      var jsonData = response.getContentText();
+      var data = JSON.parse(jsonData);
+      data = data.slice(0, 5);
+      } catch (error) {
+        // Log the error to the console
+        Logger.log('Error with metric: your_metric - ' + error + '\n' + url);
+      }
+  
+      if(metrics[i].category === 'exp'  && j === 0){ 
+        values.push(["\n", titles.skilling, "\n"]);
+      }
+      else if(metrics[i].category === 'score' && j === 0){
+        values.push(["\n", titles.activities, "\n"]);
+      }
+      else if(metrics[i].category === 'kills' && j === 0){
+        values.push(["\n", titles.bossing, "\n"]);
+      }
+      else  if(metrics[i].category === 'ehp' && j === 0){
+        values.push(["\n", titles.efficiency,"\n" ]);
+      }
+      
+      for (var k = 0; k < data.length; k++) {
+        var displayName = data[k].player.displayName;
+        
+        var playerData;
+        
+        //if (data[k].data[metrics[i].category] === '-1' || data[k].data[metrics[i].category] === -1) {return}
+
+        if (metrics[i].category === 'experience' || metrics[i].category === 'score' || metrics[i].category === 'kills') {
+          playerData = data[k].data[metrics[i].category];
+        }
+        else{
+          playerData = data[k].player[metrics[i].category];  // Use category to access the correct player data
+        }
+        var metricType = metrics[i].metrics[j].display;
+        var metricIcon = metrics[i].metrics[j].icon;
+        var metricTitle = metricIcon + metricType + metricIcon;
+        if(displayName === 'Sok Chempion'){
+          console.log(playerData + ' ' + metricType);
+        }
+    
+        if(k < 1){
+         values.push(["\n", metricTitle, '']);
+        }
+
+        if(data[k].player.type === 'ironman') {
+          if (typeof playerData === 'number') {
+           values.push([Math.floor(playerData).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace, titles.ironman + displayName ]);
+          }
+          else{
+            values.push([playerData.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace, titles.ironman + displayName]);
+          }
+        }
+        else if(data[k].player.type === 'hardcore') {
+          if (typeof playerData === 'number') {
+           values.push([Math.floor(playerData).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace,titles.hardcore + displayName ]);
+          }
+          else{
+            values.push([playerData.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace, titles.hardcore + displayName]);
+          }
+        }
+        else if(data[k].player.type === 'ultimate') {
+          if (typeof playerData === 'number') {
+           values.push([Math.floor(playerData).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace,titles.ultimate + displayName ]);
+          }
+          else{
+            values.push([playerData.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace, titles.ultimate + displayName]);
+          }
+        }
+        else {
+          if (typeof playerData === 'number') {
+           values.push([Math.floor(playerData).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace,displayName ]);
+          }
+          else{
+            values.push([playerData.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","), titles.emptySpace, displayName]);
+          }
+        }  
+      }
+    }
+  }
+  // Clear the existing data in the sheet and write the extracted data
+  HISCORES.clearContents();
+  if (values.length > 0) {
+    HISCORES.getRange(1, 1, values.length, 3).setValues(values);
+  }
+}
+
+function extractFromCLOG(){
+  var API_URL = 'https://api.collectionlog.net/collectionlog/user/';
+  var PETS = getSheet('PETS');
+  var CLOG = getSheet('CLOG');
+  var userAgent = 'Vengienz Community Hiscores testing';
+  var titles = categoryTitles();
+  var pet_icons = petIcons();
+  var space = ' ';
+  var usernamePet = ['KaiserBruno', 'King Slime', 'EasyFro', 'Gunzyx'];
+  var usernamePetXtra = [
+    {name: 'SuperVegeto', count: 23,  pets: '<:chaos_ele:866763740363751454><:supreme:866763968684883989><:bandos:866764320616218684><:mole:733540186448986202><:Princeblackdragon:1215383753141264474><:thermy:866782001998200852><:kraken:866764439045799986><:Petsnakeling:1215147932710338590><:Chompychick:1215147927249485925><:jad:866782063793143848><:cerb:866763694015512667><:Heron:1215147931712102412><:Rockgolem:1215147934774206484><:Beaver:1215147925705982003><:Riftguardian:1215385270640181289><:Rockgolem:1215147934774206484><:CoX:866763706397098014><:skotizo:866764695351984158><:vork:866782101034631179> <:ToB:866764781745864704><:Ikklehydra:1215241396600963132><:sarachnis:866764650851074049><:Nex:932108512316751903>', type: 'NORMAL'}
+  ]
+  var usernameClog = ['KaiserBruno', 'C4ron', 'I am Donuts', 'SquanUK', 'its the game', 'nicnad', 'Rokkenjima', 'Farigno', 'K1ERZ'];
+  var usernameClogXtra = [
+    {name: 'osleeb', count: 982, type: 'NORMAL'}
+  ]
+  var valuesPets = [
+    ['', '<:Collection_log:872647911366856705> **Completionist** <:Collection_log:872647911366856705>', '\n'],
+    ['','<:pikachu:680876195721904150> **Pets** <:pikachu:680876195721904150>', '\n']
+  ];
+  var valuesClog = [
+    ['', '<:Top10Clog:1143727594529886209> **Collection Log** <:Top10Clog:1143727594529886209>', '\n']
+  ];
+  var PET_HISCORES = [];
+  var CLOG_HISCORES = [];
+  var petsEntry = '';
+  var clogEntry = '';
+
+  for(var p = 0; p < usernamePetXtra.length; p++){
+      PET_HISCORES.push({name: usernamePetXtra[p].name, score: usernamePetXtra[p].count, icon: usernamePetXtra[p].pets, type: usernamePetXtra[p].type});
+  }
+
+  for (var i = 0; i < usernamePet.length; i++) {
+    var HAS_PETS = [];
+    var urlPet = API_URL + usernamePet[i];
+    var response = UrlFetchApp.fetch(urlPet, {headers: { 'User-Agent': userAgent }});
+    var jsonData = response.getContentText();
+    var data = JSON.parse(jsonData);
+    var ALL_PETS = data.collectionLog.tabs.Other['All Pets'];
+    var countPets = 0;
+
+    //for icon chunk
+    for (var l = 0; l < ALL_PETS.items.length; l++){
+      if(ALL_PETS.items[l].obtained === true){
+        countPets++;
+        HAS_PETS.push(pet_icons[ALL_PETS.items[l].id]); //pushes lots into array of icons
+      }
+    }
+    var iconBatch = HAS_PETS.join('');
+    PET_HISCORES.push({name: usernamePet[i], score: countPets, icon: iconBatch, type: data.collectionLog.accountType});
+  }
+  PET_HISCORES.sort((a, b) => (a.score < b.score) ? 1 : -1);
+
+  for(var h = 0; h < PET_HISCORES.length; h++){
+    if(PET_HISCORES[h].type === 'IRONMAN'){
+      petsEntry = titles.ironman + PET_HISCORES[h].name + titles.dashSpace + PET_HISCORES[h].score + '\n' + PET_HISCORES[h].icon;
+    } 
+    else if(PET_HISCORES[h].type === 'HARDCORE') {
+      petsEntry = titles.hardcore + PET_HISCORES[h].name + titles.dashSpace + PET_HISCORES[h].score + '\n' + PET_HISCORES[h].icon;
+    } 
+    else if(PET_HISCORES[h].type === 'ULTIMATE') {
+      petsEntry = titles.ultimate + PET_HISCORES[h].name + titles.dashSpace + PET_HISCORES[h].score + '\n' + PET_HISCORES[h].icon;
+    }
+    else{
+      petsEntry = PET_HISCORES[h].name + titles.dashSpace + PET_HISCORES[h].score + '\n' + PET_HISCORES[h].icon;
+    }
+    valuesPets.push([petsEntry, '', '\n']);
+  }
+
+
+  for(var c = 0; c < usernameClogXtra.length; c++){
+    CLOG_HISCORES.push({name: usernameClogXtra[c].name, score: usernameClogXtra[c].count, type: usernameClogXtra[c].type});
+  }
+
+  for (var k = 0; k < usernameClog.length; k++) {
+    var urlClog = API_URL + usernameClog[k];
+    var response = UrlFetchApp.fetch(urlClog, {headers: { 'User-Agent': userAgent }});
+    var jsonData = response.getContentText();
+    var data = JSON.parse(jsonData);
+    var uniqueItems = data.collectionLog.uniqueItems;
+    CLOG_HISCORES.push({name: data.collectionLog.username, score: data.collectionLog.uniqueObtained, type: data.collectionLog.accountType});
+  }
+  
+  CLOG_HISCORES.sort((a, b) => (a.score < b.score) ? 1 : -1);
+  
+  for(var ch = 0; ch < CLOG_HISCORES.length; ch++){
+    if(data.collectionLog.accountType === 'IRONMAN'){
+      clogEntry = CLOG_HISCORES[ch].score + '/' + uniqueItems + titles.dashSpace + titles.ironman + CLOG_HISCORES[ch].name;
+    }
+    else if(data.collectionLog.accountType === 'HARDCORE'){
+      clogEntry = CLOG_HISCORES[ch].score + '/' + uniqueItems + titles.dashSpace + titles.hardcore + CLOG_HISCORES[ch].name;
+    }
+    else if(data.collectionLog.accountType === 'ULTIMATE'){
+      clogEntry = CLOG_HISCORES[ch].score + '/' + uniqueItems + titles.dashSpace + titles.ultimate + CLOG_HISCORES[ch].name;
+    }
+    else { 
+      clogEntry = CLOG_HISCORES[ch].score + '/' + uniqueItems + titles.dashSpace + CLOG_HISCORES[ch].name;
+    }
+    valuesClog.push([clogEntry, '', '\n']);
+  }
+  valuesClog.push(['Message <@358710615923097600> to be added to pets/clog hiscores', '', '\n']);
+  valuesClog.push(['=text(TODAY(), "MM/DD/YYYY")', '' ,'']);
+  
+  PETS.clearContents();
+  if(valuesPets.length > 0){
+    PETS.getRange(1, 1, valuesPets.length, 3).setValues(valuesPets);
+  }
+  CLOG.clearContents();
+  if(valuesClog.length > 0){
+    CLOG.getRange(1, 1, valuesClog.length, 3).setValues(valuesClog);
+  }
+}
