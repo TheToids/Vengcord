@@ -7,7 +7,7 @@
       },
       "player2": {
         "nameValue": "KaiserBruno",
-        "xpValue": 8898
+        "xpValue": 8899
       },
       "player3": {
         "nameValue": "osleeb",
@@ -42,6 +42,226 @@
       "player5": {
         "nameValue": "KaiserBruno",
         "xpValue": 600
+      }
+    },
+    "clue_scrolls_easy": {
+      "player1": {
+        "nameValue": "c4ron",
+        "xpValue": 3406
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2400
+      },
+      "player3": {
+        "nameValue": "SquanUK",
+        "xpValue": 1000
+      },
+      "player4": {
+        "nameValue": "tiny dik nub",
+        "xpValue": 754
+      },
+      "player5": {
+        "nameValue": "King Slime",
+        "xpValue": 623
+      }
+    },
+    "clue_scrolls_medium": {
+      "player1": {
+        "nameValue": "c4ron",
+        "xpValue": 5164
+      },
+      "player2": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 3400
+      },
+      "player3": {
+        "nameValue": "osleeb",
+        "xpValue": 1904
+      },
+      "player4": {
+        "nameValue": "Chrlie",
+        "xpValue": 1758
+      },
+      "player5": {
+        "nameValue": "I am Donuts",
+        "xpValue": 1220
+      }
+    },
+    "clue_scrolls_hard": {
+      "player1": {
+        "nameValue": "osleeb",
+        "xpValue": 1329
+      },
+      "player2": {
+        "nameValue": "veldsy",
+        "xpValue": 1083
+      },
+      "player3": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1020
+      },
+      "player4": {
+        "nameValue": "Z E E E F",
+        "xpValue": 1000
+      },
+      "player5": {
+        "nameValue": "c4ron",
+        "xpValue": 889
+      }
+    },
+    "clue_scrolls_elite": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 986
+      },
+      "player2": {
+        "nameValue": "osleeb",
+        "xpValue": 377
+      },
+      "player3": {
+        "nameValue": "redant905",
+        "xpValue": 322
+      },
+      "player4": {
+        "nameValue": "RN BSN",
+        "xpValue": 251
+      },
+      "player5": {
+        "nameValue": "SquanUK",
+        "xpValue": 248
+      }
+    },
+    "clue_scrolls_master": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 493
+      },
+      "player2": {
+        "nameValue": "K1ERZ",
+        "xpValue": 463
+      },
+      "player3": {
+        "nameValue": "King Slime",
+        "xpValue": 452
+      },
+      "player4": {
+        "nameValue": "Gunzyx",
+        "xpValue": 437
+      },
+      "player5": {
+        "nameValue": "Z E E E F",
+        "xpValue": 429
+      }
+    },
+    "last_man_standing": {
+      "player1": {
+        "nameValue": "glorybaby",
+        "xpValue": 5938
+      },
+      "player2": {
+        "nameValue": "xeera01",
+        "xpValue": 5422
+      },
+      "player3": {
+        "nameValue": "Fe Tate",
+        "xpValue": 4303
+      },
+      "player4": {
+        "nameValue": "suersocarl22",
+        "xpValue": 3669
+      },
+      "player5": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 2500
+      }
+    },
+    "soul_wars_zeal": {
+      "player1": {
+        "nameValue": "emmasboy88",
+        "xpValue": 15146
+      },
+      "player2": {
+        "nameValue": "Tha Dong",
+        "xpValue": 12449
+      },
+      "player3": {
+        "nameValue": "its the game",
+        "xpValue": 11229
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 7000
+      },
+      "player5": {
+        "nameValue": "OsrsVorky",
+        "xpValue": 6756
+      }
+    },
+    "guardians_of_the_rift": {
+      "player1": {
+        "nameValue": "lttstorecom",
+        "xpValue": 1577
+      },
+      "player2": {
+        "nameValue": "Robin Yin",
+        "xpValue": 1547
+      },
+      "player3": {
+        "nameValue": "spryo25",
+        "xpValue": 1444
+      },
+      "player4": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 1100
+      },
+      "player5": {
+        "nameValue": "Guri Kelef",
+        "xpValue": 875
+      }
+    },
+    "pvp_arena": {
+      "player1": {
+        "nameValue": "benji staxx",
+        "xpValue": 3184
+      },
+      "player2": {
+        "nameValue": "DuhStupid",
+        "xpValue": 2746
+      },
+      "player3": {
+        "nameValue": "Kall",
+        "xpValue": 2644
+      },
+      "player4": {
+        "nameValue": "Kawaiiet",
+        "xpValue": 2630
+      },
+      "player5": {
+        "nameValue": "ironic tbh",
+        "xpValue": 2622
+      }
+    },
+    "colosseum_glory": {
+      "player1": {
+        "nameValue": "KaiserBruno",
+        "xpValue": 51423
+      },
+      "player2": {
+        "nameValue": "a zuzakini",
+        "xpValue": 51311
+      },
+      "player3": {
+        "nameValue": "matoohee",
+        "xpValue": 45551
+      },
+      "player4": {
+        "nameValue": "nicnad",
+        "xpValue": 44720
+      },
+      "player5": {
+        "nameValue": "Anchondo",
+        "xpValue": 43453
       }
     }
   }
